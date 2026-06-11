@@ -113,6 +113,11 @@ def weight_oz(text):
     return None
 
 
+def strip_html(text):
+    """Plain text from an HTML fragment (for description-based tagging)."""
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", text or "")).strip()
+
+
 def collect():
     """Merge all sources into structured rows (used by markdown + HTML report)."""
     live_by_key = {}
@@ -124,9 +129,19 @@ def collect():
         if m:
             by_material.setdefault(m, []).append(p)
     for m, prods in by_material.items():
-        ex = example_link(prods)
+        # Prefer an in-stock fit for the example/shop link so an "available" card
+        # always links to a fit you can actually buy (not a sold-out one); fall
+        # back to any fit when nothing is in stock.
+        in_stock_prods = [p for p in prods
+                          if any(v.get("available") for v in p.get("variants", []))]
+        ex = example_link(in_stock_prods or prods)
         live_by_key[normkey(m)] = {
             "name": m, "url": f"{PRODUCT_BASE}/{ex['handle']}", "n": len(prods),
+            "in_stock": bool(in_stock_prods),
+            # earliest fit = closest thing Shopify has to this fabric's release;
+            # desc (shop description) is the best source for oz + fiber.
+            "created_at": min((p.get("created_at") or "")[:10] for p in prods),
+            "desc": strip_html(ex.get("body_html")),
             "images": shopify_images(ex), "weight_oz": weight_oz(ex.get("body_html"))}
 
     archived_by_key = {}
@@ -146,27 +161,76 @@ def collect():
         if live:
             used_live.add(normkey(live["name"]))
             rows[normkey(live["name"])] = {
-                "name": live["name"], "status": "active", "images": live["images"],
+                "name": live["name"], "status": "active", "in_stock": live["in_stock"],
+                "images": live["images"],
                 "weight_oz": live["weight_oz"], "shop_url": live["url"],
                 "shop_fits": live["n"], "archived_url": None,
-                "showcase_url": f"{SQ}/{slug}", "slug": slug}
+                "showcase_url": f"{SQ}/{slug}", "slug": slug,
+                "blog_url": None, "release_date": None,
+                "desc": live["desc"], "_created_at": live["created_at"]}
         else:
             arc = archived_by_key.get(normkey(title))
             rows[normkey(title)] = {
-                "name": title, "status": "discontinued", "images": [],
+                "name": title, "status": "discontinued", "in_stock": False,
+                "images": [],
                 "weight_oz": None, "shop_url": None, "shop_fits": None,
                 "archived_url": (f"https://web.archive.org/web/{arc['ts']}/{arc['url']}"
                                  if arc else None),
-                "showcase_url": f"{SQ}/{slug}", "slug": slug}
+                "showcase_url": f"{SQ}/{slug}", "slug": slug,
+                "blog_url": None, "release_date": None,
+                "desc": "", "_created_at": None}
 
     for lk, rec in live_by_key.items():
         if lk not in used_live and lk not in rows:
-            rows[lk] = {"name": rec["name"], "status": "active", "images": rec["images"],
+            rows[lk] = {"name": rec["name"], "status": "active", "in_stock": rec["in_stock"],
+                        "images": rec["images"],
                         "weight_oz": rec["weight_oz"], "shop_url": rec["url"],
                         "shop_fits": rec["n"], "archived_url": None,
-                        "showcase_url": None, "slug": None}
+                        "showcase_url": None, "slug": None,
+                        "blog_url": None, "release_date": None,
+                        "desc": rec["desc"], "_created_at": rec["created_at"]}
 
+    enrich_with_blog(rows)
     return sorted(rows.values(), key=lambda r: r["name"].lower())
+
+
+def enrich_with_blog(rows):
+    """Attach blog_url + release_date, fold blog text into desc, and append the
+    blog-only 'missed' fabrics. Imported lazily to avoid a circular import
+    (blog_match imports this module). Mutates `rows` (a {normkey: row} dict)."""
+    from blog_match import load_blog, resolve_blog_map, load_extras, BLOG
+
+    posts = load_blog()
+    by_handle = {p["handle"]: p for p in posts}
+    blog_map = resolve_blog_map(rows.values(), posts)   # {normkey: handle}
+
+    for nk, r in rows.items():
+        ca = r.pop("_created_at", None)
+        handle = blog_map.get(nk)
+        bp = by_handle.get(handle) if handle else None
+        if handle:
+            r["blog_url"] = f"{BLOG}/{handle}"
+        # release date: blog announcement first, else earliest Shopify created_at
+        r["release_date"] = (bp["date"] if bp else None) or ca
+        # NB: blog `text` is the whole page (incl. related-post links naming other
+        # fabrics), so it is NOT folded into desc — tagging uses the clean shop
+        # description only.
+
+    # "missed" fabrics that only the blog knows about (deduped by normkey)
+    for ex in load_extras():
+        nk = normkey(ex["name"])
+        if nk in rows:
+            continue
+        bp = by_handle.get(ex["handle"])
+        rows[nk] = {
+            "name": ex["name"], "status": "discontinued", "in_stock": False,
+            "images": (bp.get("images") if bp else None) or [],
+            "weight_oz": None, "shop_url": None, "shop_fits": None,
+            "archived_url": None, "showcase_url": None, "slug": None,
+            "blog_url": f"{BLOG}/{ex['handle']}",
+            "release_date": bp["date"] if bp else None,
+            "desc": "",   # no clean per-fabric description available
+        }
 
 
 def build_markdown(rows):

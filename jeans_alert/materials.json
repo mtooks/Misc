@@ -1,0 +1,5244 @@
+[
+ {
+  "name": "10 Fold Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-05-20",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-10-fold-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2024"
+ },
+ {
+  "name": "10oz Rinsed Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-08-26",
+  "weight_oz": 10.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/wide-leg-trouser-10oz-rinsed-denim-indigo",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/womens-10oz-rinsed-denim",
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2024"
+ },
+ {
+  "name": "11oz Stretch Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2017-10-12",
+  "weight_oz": 11.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-weird-guy-11oz-stretch-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/deardenimdiary",
+  "archived_url": null,
+  "season": "Fall 2017"
+ },
+ {
+  "name": "15th Anniversary Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/15th-anniversary-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "18oz Big Slub Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-03-27",
+  "weight_oz": 18.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/18oz-big-slub-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/experience-the-history-of-naked-famous-denim-with-the-archival-18oz-big-slub-selvedge",
+  "archived_url": "https://web.archive.org/web/20230329043122/https://nakedandfamousdenimnyc.com/products/super-guy-18oz-big-slub-selvedge",
+  "season": "Spring 2023"
+ },
+ {
+  "name": "1954 Godzilla Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2025-09-11",
+  "weight_oz": 16.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Godzilla"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-1954-godzilla-black",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/godzilla-x-naked-famous-denim-godzilla-1954-selvedge",
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "2x1 Dungaree Nep Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-07",
+  "weight_oz": 9.75,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/wide-wild-west-9-7oz-2-1-nep-denim-mid-indigo",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Active Motion Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2019-02-05",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Synthetic / tech"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/womens-max-active-motion-denim",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Winter 2019"
+ },
+ {
+  "name": "Akuma Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2018-10-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/akuma-selvedge-is-being-re-released",
+  "archived_url": null,
+  "season": "Fall 2018"
+ },
+ {
+  "name": "All Black Comfort Stretch",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-01-08",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/high-skinny-black-comfort-stretch",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/all-black-comfort-stretch",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/experience-unmatched-comfort-with-the-all-black-comfort-stretch",
+  "archived_url": null,
+  "season": "Winter 2024"
+ },
+ {
+  "name": "All Conditions Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-02-23",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/all-conditions-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/all-condition-selvedge",
+  "archived_url": null,
+  "season": "Winter 2020"
+ },
+ {
+  "name": "All Natural Ecru Foxfibre® Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2025-02-14",
+  "weight_oz": 13.6,
+  "weight": "Midweight",
+  "fiber": [
+   "Foxfibre",
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-all-natural-ecru-foxfiber",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/all-natural-ecru-foxfibre",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/all-natural-ecru-foxfibre-selvedge-a-story-of-soil-and-sustainability",
+  "archived_url": null,
+  "season": "Winter 2025"
+ },
+ {
+  "name": "All Natural Fox Fibre Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-08-19",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Foxfibre"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/all-natural-fox-fibre-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-essence-of-nature-in-every-thread-the-all-natural-foxfibre-selvedge",
+  "archived_url": null,
+  "season": "Summer 2024"
+ },
+ {
+  "name": "All Natural Foxfibre Ecru",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2025-02-14",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Foxfibre"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/womens-all-natural-foxfibre-ecru",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/all-natural-ecru-foxfibre-selvedge-a-story-of-soil-and-sustainability",
+  "archived_url": null,
+  "season": "Winter 2025"
+ },
+ {
+  "name": "All Natural Organic Cotton Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-05-09",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/all-natural-organic-cotton-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/embrace-the-natural-beauty-of-the-all-natural-organic-cotton-selvedge-denim",
+  "archived_url": "https://web.archive.org/web/20251004102456/https://nakedandfamousdenim.com/products/weird-guy-all-natural-organic-cotton-selvedge",
+  "season": "Spring 2023"
+ },
+ {
+  "name": "Antique Blue Denim Stretch",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-08-26",
+  "weight_oz": 9.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/maudie-antique-blue-denim-stretch-antique-blue",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/womens-antique-blue-denim-stretch",
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2024"
+ },
+ {
+  "name": "Army Green Duck Canvas",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-08-24",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/army-green-duck-canvas",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/army-green-duck-canvas-selvedge",
+  "archived_url": null,
+  "season": "Summer 2019"
+ },
+ {
+  "name": "Army Green Duck Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2019-08-24",
+  "weight_oz": 10.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-weird-guy-army-green-duck-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/army-green-duck-canvas-selvedge",
+  "archived_url": null,
+  "season": "Summer 2019"
+ },
+ {
+  "name": "Army HBT",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2023-11-06",
+  "weight_oz": 10.2,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/classic-fatigue-army-hbt-olive-drab",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/army-hbt-olive-drab",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/a-military-twist-to-your-raw-denim-wardrobe-the-army-hbt-olive-drab",
+  "archived_url": null,
+  "season": "Fall 2023"
+ },
+ {
+  "name": "Asanoha Kimono Print Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-09-27",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/asanoha-kimono-print-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/asanoha-kimono-print-selvedge",
+  "archived_url": "https://web.archive.org/web/20210921192520/https://nakedandfamousdenimnyc.com/products/super-guy-asanoha-kimono-print-selvedge",
+  "season": "Fall 2021"
+ },
+ {
+  "name": "Bane The Bat Breaker Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "DC Comics"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/bane-the-bat-breaker-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Batman The Dark Knight Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "DC Comics"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/batman-the-dark-knight-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Black Cashmere",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2020-10-07",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cashmere"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-super-guy-black-cashmere",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/black-cashmere",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/black-cashmere-denim",
+  "archived_url": null,
+  "season": "Fall 2020"
+ },
+ {
+  "name": "Black Cobra Stretch Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2019-08-06",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-weird-guy-black-cobra-stretch-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/black-cobra",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/blacked-out-japanese-stretch-selvedge-denim-black-cobra-stretch-selvedge",
+  "archived_url": null,
+  "season": "Summer 2019"
+ },
+ {
+  "name": "Black Lightweight Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-07",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/bestie-black-lightweight-denim-black",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Black Power Stretch",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2013-12-17",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-black-power-stretch",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Winter 2013"
+ },
+ {
+  "name": "Black Selvedge Chino",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2018-05-22",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/super-guy-black-selvedge-chino",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2018"
+ },
+ {
+  "name": "Blackened Steel Selvedge Duck Canvas",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-08-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/blackened-steel-selvedge-duck-canvas",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/blackend-steel-duck-selvedge",
+  "archived_url": null,
+  "season": "Summer 2020"
+ },
+ {
+  "name": "Blanket Lined Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-12-12",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/blanket-lined-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/blanket-lined-denim-stay-warm-in-style-with-the-ultimate-winter-jeans",
+  "archived_url": "https://web.archive.org/web/20251015235531/https://nakedandfamousdenim.com/products/super-guy-blanket-lined-denim",
+  "season": "Winter 2022"
+ },
+ {
+  "name": "Blood Brothers Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2026-05-13",
+  "weight_oz": 20.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Colored core"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-blood-brothers-selvedge-indigo-x-black",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/blood-brothers-selvedge",
+  "archived_url": null,
+  "season": "Spring 2026"
+ },
+ {
+  "name": "Blue Bird Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-02-21",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/blue-bird-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/blue-bird-selvedge",
+  "archived_url": "https://web.archive.org/web/20220527033344/https://nakedandfamousdenimnyc.com/products/super-guy-blue-bird-selvedge",
+  "season": "Winter 2022"
+ },
+ {
+  "name": "Blue Comfort",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2022-10-12",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/bestie-blue-comfort",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/womens-blue-comfort",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/blue-comfort-stretch",
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Blue Comfort Stretch Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2022-10-12",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/stacked-guy-blue-comfort-stretch-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/blue-comfort-stretch-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/blue-comfort-stretch",
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Blue Core Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-01-15",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Colored core"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/blue-core-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/blue-core-selvedge",
+  "archived_url": null,
+  "season": "Winter 2020"
+ },
+ {
+  "name": "Blue Grass Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-10",
+  "weight_oz": 12.7,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/groovy-guy-blue-grass-selvedge-indigo",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Blue Jay Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-05-02",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/blue-jay-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/step-back-in-time-with-the-blue-jay-selvedge-denim",
+  "archived_url": "https://web.archive.org/web/20230204223759/https://nakedandfamousdenimnyc.com/products/easy-guy-blue-jay-selvedge",
+  "season": "Spring 2023"
+ },
+ {
+  "name": "Blue Smoke Stretch Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-09-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/blue-smoke-stretch-selvedge",
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Blue Storm Slub Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-04-09",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/blue-storm-slub-by-naked-famous-denim",
+  "archived_url": null,
+  "season": "Spring 2019"
+ },
+ {
+  "name": "Blue Wave Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-10-07",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-blue-wave-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/breaking-in-raw-denim-made-easy-discover-the-blue-wave-selvedge",
+  "archived_url": null,
+  "season": "Fall 2024"
+ },
+ {
+  "name": "Brawler Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-11-07",
+  "weight_oz": 17.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Recycled"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-brawler-selvedge-1",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Broken Twill Slub Stretch Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-02-27",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/max-broken-twill-slub-stretch-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/broken-twill-slub-stretch-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/bridging-past-and-present-the-tale-of-our-broken-twill-slub-stretch-selvedge",
+  "archived_url": null,
+  "season": "Winter 2024"
+ },
+ {
+  "name": "Brown Fox Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2021-05-11",
+  "weight_oz": 13.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Foxfibre",
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-brown-fox-selvedge-brown",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/brown-fox-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/brown-fox-selvedge",
+  "archived_url": null,
+  "season": "Spring 2021"
+ },
+ {
+  "name": "Burning Godzilla Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2025-11-07",
+  "weight_oz": 20.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Glow-in-the-dark"
+  ],
+  "theme": [
+   "Godzilla"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-burning-godzilla-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/burning-godzilla-selvedge-20oz-denim-with-atomic-weft",
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Camel Slub Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-09-17",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/camel-slub-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/warm-up-your-autumn-style-with-the-camel-slub-selvedge",
+  "archived_url": "https://web.archive.org/web/20231205014949/https://nakedandfamousdenimnyc.com/products/easy-guy-camel-slub-selvedge",
+  "season": "Fall 2023"
+ },
+ {
+  "name": "Cashmere Blend Stretch Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2019-02-05",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cashmere"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/womens-max-cashmere-blend-strech-denim",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Winter 2019"
+ },
+ {
+  "name": "Cashmere Stretch Blend Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2017-08-17",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cashmere"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-easy-guy-cashmere-stretch-blend-denim",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2017"
+ },
+ {
+  "name": "Catechu Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-08-02",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Plant / persimmon dye"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/catechu-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/catechu-selvedge",
+  "archived_url": "https://web.archive.org/web/20220817204354/https://nakedandfamousdenimnyc.com/products/easy-guy-catechu-selvedge",
+  "season": "Summer 2022"
+ },
+ {
+  "name": "Cell Perfect Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-07-23",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-cell-perfect-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2024"
+ },
+ {
+  "name": "Cerulean Kasuri Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-02-02",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/cerulean-kasuri-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/cerulean-kasuri-selvedge",
+  "archived_url": null,
+  "season": "Winter 2021"
+ },
+ {
+  "name": "Charcoal Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-03-21",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-charcoal-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Chestnut Dyed Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-09-04",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/chestnut-dyed-japanese-selvedge-denim",
+  "archived_url": null,
+  "season": "Fall 2019"
+ },
+ {
+  "name": "Chinese New Year - Year Of The Horse",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-02-02",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Chinese New Year"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-chinese-new-year-year-of-the-horse",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/galloping-into-the-year-of-the-horse",
+  "archived_url": null,
+  "season": "Winter 2026"
+ },
+ {
+  "name": "Chinese New Year Metal Ox",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-01-12",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Chinese New Year"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/chinese-new-year-metal-ox",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/chinese-new-year-metal-ox",
+  "archived_url": null,
+  "season": "Winter 2021"
+ },
+ {
+  "name": "Chinese New Year Metal Rat",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-01-06",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Chinese New Year"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/chinese-new-year-metal-rat",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/chinese-new-year-metal-rat",
+  "archived_url": null,
+  "season": "Winter 2020"
+ },
+ {
+  "name": "Chinese New Year Water Rabbit Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-01-30",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Chinese New Year"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/chinese-new-year-water-rabbit-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/celebrating-the-year-of-the-water-rabbit-with-chinese-new-year-selvedge-denim",
+  "archived_url": null,
+  "season": "Winter 2023"
+ },
+ {
+  "name": "Chinese New Year Water Tiger",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-01-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Chinese New Year"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/chinese-new-year-water-tiger",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/chinese-new-year-water-tiger",
+  "archived_url": null,
+  "season": "Winter 2022"
+ },
+ {
+  "name": "Chinese New Year Year Of The Snake",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2025-01-24",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Chinese New Year"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/chinese-new-year-year-of-the-snake",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/chinese-new-year-selvedge-year-of-the-dragon-denim-with-strength-and-power",
+  "archived_url": null,
+  "season": "Winter 2025"
+ },
+ {
+  "name": "Chocolate Milk Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-03-27",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-chocolat-milk-selvedge-1",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/milk-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/got-chocolate-milk-denim",
+  "archived_url": null,
+  "season": "Spring 2026"
+ },
+ {
+  "name": "Chrismukkah Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2016-12-08",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/chrismukkah-selvedge-denim",
+  "archived_url": null,
+  "season": "Winter 2016"
+ },
+ {
+  "name": "Citrus Kasuri Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-03-04",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-citrus-kasuri-selvedge-1",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/citrus-kasuri-selvedge",
+  "archived_url": null,
+  "season": "Spring 2026"
+ },
+ {
+  "name": "CNY Fire Rooster Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2017-01-12",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Chinese New Year"
+  ],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/naked-famous-denim-chinese-new-year-fire-rooster",
+  "archived_url": null,
+  "season": "Winter 2017"
+ },
+ {
+  "name": "Cny Year Of The Dragon",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-01-23",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Chinese New Year"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/cny-year-of-the-dragon",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/ring-in-the-year-of-the-dragon-chinese-new-year-selvedge",
+  "archived_url": null,
+  "season": "Winter 2024"
+ },
+ {
+  "name": "Coffee Dye Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-09-22",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [
+   "Plant / persimmon dye"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-coffee-dye-selvedge-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/coffee-dye-selvedge-japanese-denim-dyed-with-real-roasted-coffee-beans",
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Craftsman Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-04-25",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/craftsman-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-craftsman-selvedge-lightweight-selvedge-denim-meets-legendary-durability",
+  "archived_url": "https://web.archive.org/web/20240528095815/https://nakedandfamousdenimnyc.com/products/easy-guy-craftsman-selvedge",
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Crimson Sky Stretch Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-09-06",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/crimson-sky-stretch-selvedge",
+  "archived_url": null,
+  "season": "Fall 2021"
+ },
+ {
+  "name": "Crossways Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-01-22",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/crossways-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/crossways-denim",
+  "archived_url": null,
+  "season": "Winter 2020"
+ },
+ {
+  "name": "Deadstock Real Gold Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2020-02-06",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-deadstock-real-gold-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/real-gold-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/real-gold-selvedge",
+  "archived_url": null,
+  "season": "Winter 2020"
+ },
+ {
+  "name": "Deep Indigo Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-25",
+  "weight_oz": 15.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-weird-guy-deep-indigo-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/double-dip-selvedge-the-art-of-deep-indigo-dyeing",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Deep Indigo Stretch Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-25",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-weird-guy-deep-indigo-stretch-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/double-dip-selvedge-the-art-of-deep-indigo-dyeing",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Deep Sea Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-10-18",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-deep-sea-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/indigo-depths-unveiling-the-deep-sea-selvedge-denim",
+  "archived_url": null,
+  "season": "Fall 2024"
+ },
+ {
+  "name": "Dia De Los Muertos Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-11-08",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-dia-de-los-muertos-selvedge-indigo-1",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/threads-of-mexican-tradition-the-dia-de-los-muertos-selvedge-story",
+  "archived_url": null,
+  "season": "Fall 2024"
+ },
+ {
+  "name": "Diamond Twill Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2017-09-30",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-worlds-first-diamond-twill-denim",
+  "archived_url": null,
+  "season": "Fall 2017"
+ },
+ {
+  "name": "Dirty Fade Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2023-03-14",
+  "weight_oz": 14.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-weird-guy-dirty-fade-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/double-dirty-fade-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/introducing-the-double-dirty-fade-selvedge-a-remix-of-a-classic-fabric",
+  "archived_url": null,
+  "season": "Spring 2023"
+ },
+ {
+  "name": "Dobby Patchwork",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-08-26",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/twin-pleat-short-dobby-patchwork-pale-blue",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2024"
+ },
+ {
+  "name": "Double Dip Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-25",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-double-dip-selvedge-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/double-dip-selvedge-the-art-of-deep-indigo-dyeing",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Duck Canvas Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2019-08-24",
+  "weight_oz": 10.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-weird-guy-selvedge-duck",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/army-green-duck-canvas-selvedge",
+  "archived_url": null,
+  "season": "Summer 2019"
+ },
+ {
+  "name": "Dusty Rose Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-06-19",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/dusty-rose-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/add-a-pop-of-color-to-your-wardrobe-with-the-dusty-rose-denim",
+  "archived_url": "https://web.archive.org/web/20230204205919/https://nakedandfamousdenimnyc.com/products/easy-guy-dusty-rose-denim",
+  "season": "Summer 2023"
+ },
+ {
+  "name": "Dynamic Duo Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/dynamic-duo-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Elephant 11 Grandrelle",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-10-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/elephant-11-grandrelle",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/elephant-11-grandrelle",
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Elephant 11 Stretch Grandrelle",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-10-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/elephant-11-stretch-grandrelle",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/elephant-11-grandrelle",
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Elephant 12",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2023-09-05",
+  "weight_oz": 20.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-elephant-12",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/elephant-12",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-art-of-durability-how-the-elephant-12-sets-the-bar-for-heavyweight-selvedge-denim",
+  "archived_url": null,
+  "season": "Fall 2023"
+ },
+ {
+  "name": "Elephant 13 Red Core",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-09-24",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Colored core"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/elephant-13-red-core",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/below-the-surface-elephant-13-red-core",
+  "archived_url": null,
+  "season": "Fall 2024"
+ },
+ {
+  "name": "Elephant 14 - Dirty Elephant Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-01-09",
+  "weight_oz": 20.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-elephant4-dirty-elephant",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-elephant-14-dirty-elephant-selvedge",
+  "archived_url": null,
+  "season": "Winter 2026"
+ },
+ {
+  "name": "Elephant 7",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2016-04-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/elephant-7",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/114900804-fw15-pre-order-elephant-5-okayama-spirit-2-and-coffee-dyed-denim",
+  "archived_url": null,
+  "season": "Spring 2016"
+ },
+ {
+  "name": "Elephant 9 Wild Blue",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-08-31",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/elephant-9-wild-blue",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/elephant-9-wild-blue",
+  "archived_url": null,
+  "season": "Summer 2020"
+ },
+ {
+  "name": "Elephant X",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2016-04-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/elephant-x",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/114900804-fw15-pre-order-elephant-5-okayama-spirit-2-and-coffee-dyed-denim",
+  "archived_url": "https://web.archive.org/web/20211203045651/https://nakedandfamousdenimnyc.com/products/super-guy-elephant-x",
+  "season": "Spring 2016"
+ },
+ {
+  "name": "Elephant X S",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2016-04-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/elephant-x-s",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/114900804-fw15-pre-order-elephant-5-okayama-spirit-2-and-coffee-dyed-denim",
+  "archived_url": "https://web.archive.org/web/20220527034509/https://nakedandfamousdenimnyc.com/products/super-guy-elephant-x-s",
+  "season": "Spring 2016"
+ },
+ {
+  "name": "Elvira - Mistress Of The Dark Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2023-05-25",
+  "weight_oz": 16.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Horror / slasher"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-elvira-mistress-of-the-dark-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2023"
+ },
+ {
+  "name": "Elvira Mistress Of The Dark Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Horror / slasher"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/elvira-mistress-of-the-dark-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Emperor Of Slub",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-10-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/emperor-of-slub",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-made-in-japan-6-emperor-of-slub-grand-blue",
+  "archived_url": null,
+  "season": "Fall 2019"
+ },
+ {
+  "name": "Empire State Selvedge 1",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2025-08-30",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/empire-state-selvedge-1",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/empire-state-selvedge-naked-famous-denim-nyc-shop-exclusive",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Empire State Selvedge 2",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2025-08-30",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/empire-state-selvedge-2",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/empire-state-selvedge-naked-famous-denim-nyc-shop-exclusive",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Faded Corduroy Organic",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-07",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/wide-leg-trouser-faded-corduroy-organique-pale-indigo",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Fat Fox Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-11-28",
+  "weight_oz": 22.7,
+  "weight": "Super-heavy",
+  "fiber": [
+   "Foxfibre",
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-fat-fox-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/fat-fox-selvedge-the-heaviest-duck-canvas-pant-ever-made",
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Fingerprint Denim",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2025-11-20",
+  "weight_oz": 11.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Fade-reveal"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-fingerprint-denim-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/fingerprint-denim-quiet-from-afar-crazy-up-close",
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Fire Bird Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/fire-bird-selvedge",
+  "blog_url": null,
+  "archived_url": "https://web.archive.org/web/20230204225930/https://nakedandfamousdenimnyc.com/products/super-guy-fire-bird-selvedge",
+  "season": null
+ },
+ {
+  "name": "Firewall Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-03-17",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/firewall-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/firewall-selvedge",
+  "archived_url": "https://web.archive.org/web/20210616005000/https://nakedandfamousdenimnyc.com/products/naked-famous-denim-super-guy-firewall-selvedge",
+  "season": "Spring 2021"
+ },
+ {
+  "name": "Flying Squirrel Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-08-01",
+  "weight_oz": 10.75,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Coated / waxed"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-flying-squirrel-selvedge-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/flying-squirrel-selvedge-lightweight-full-of-character",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Forbidden Fruit Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-06-27",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Recycled",
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-forbidden-fruit-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/forbidden-fruit-temptation-cut-from-selvedge",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Forever Black Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-04-11",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-forever-black-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/forever-black-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/forever-black-selvedge-the-pursuit-of-permanent-black",
+  "archived_url": null,
+  "season": "Spring 2025"
+ },
+ {
+  "name": "Forever Blue Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2020-08-25",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-forever-blue-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/forever-blue-stretch-selvedge",
+  "archived_url": null,
+  "season": "Summer 2020"
+ },
+ {
+  "name": "Forever Blue Stretch Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2020-08-25",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-high-skinny-forever-blue-stretch-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/forever-blue-stretch-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/forever-blue-stretch-selvedge",
+  "archived_url": null,
+  "season": "Summer 2020"
+ },
+ {
+  "name": "Frankenstein 4 Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-02-04",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/frankenstein-4-by-naked-famous-denim",
+  "archived_url": null,
+  "season": "Winter 2019"
+ },
+ {
+  "name": "French Linen Fine Canvas",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2023-10-24",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Linen"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/relaxed-pleated-trouser-french-linen-fine-canvas-black",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2023"
+ },
+ {
+  "name": "Friday The 13th Jason Voorhees Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Horror / slasher"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/friday-the-13th-jason-voorhees-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Friendship Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-02-06",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/friendship-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/friendship-denim",
+  "archived_url": null,
+  "season": "Winter 2020"
+ },
+ {
+  "name": "Gateway Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-08-08",
+  "weight_oz": 14.3,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/super-guy-gateway-selvedge-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/raw-but-not-rigid-meet-the-gateway-selvedge",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Ghostbusters Slimer Glow In The Dark Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2019-09-18",
+  "weight_oz": 11.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Coated / waxed",
+   "Glow-in-the-dark",
+   "Scented"
+  ],
+  "theme": [
+   "Ghostbusters"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-weird-guy-ghostbusters-slimer-glow-in-the-dark-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2019"
+ },
+ {
+  "name": "Ghostbusters Supernatural Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2019-09-18",
+  "weight_oz": 11.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Coated / waxed",
+   "Glow-in-the-dark",
+   "Scented"
+  ],
+  "theme": [
+   "Ghostbusters"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-weird-guy-ghostbusters-supernatural-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2019"
+ },
+ {
+  "name": "Giant Hornet Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-11-20",
+  "weight_oz": 16.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-giant-hornet-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/giant-hornet-selvedge-gritty-heavy-and-ready-to-swarm",
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Giorno Giovanna Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "JoJo"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/giorno-giovanna-selvedge",
+  "blog_url": null,
+  "archived_url": "https://web.archive.org/web/20231205013306/https://nakedandfamousdenimnyc.com/products/super-guy-giorno-giovanna-selvedge",
+  "season": null
+ },
+ {
+  "name": "Goku Super Saiyan Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2019-05-10",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Dragon Ball"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-weird-guy-goku-super-saiyan-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2019"
+ },
+ {
+  "name": "Golden Hour Slub Stretch Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-03-08",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/golden-hour-slub-stretch-selvedge",
+  "archived_url": null,
+  "season": "Spring 2022"
+ },
+ {
+  "name": "Gradient Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-08-16",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Colored core"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/gradient-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/red-gradient-core-selvedge",
+  "archived_url": null,
+  "season": "Summer 2022"
+ },
+ {
+  "name": "Green Core Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-02-19",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Colored core"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/faded-green-core-selvedge-by-naked-famous-denim",
+  "archived_url": null,
+  "season": "Winter 2019"
+ },
+ {
+  "name": "Greencast Slub Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/greencast-slub-selvedge",
+  "blog_url": null,
+  "archived_url": "https://web.archive.org/web/20231205024604/https://nakedandfamousdenimnyc.com/products/super-guy-greencast-slub-selvedge",
+  "season": null
+ },
+ {
+  "name": "Greencast Stretch Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-05-13",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Coated / waxed"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-greencast-slub-stretch-selvedge-indigo-1",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-art-of-greencast-denim-introducing-the-mij12-aomidori-selvedge",
+  "archived_url": null,
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Guardian Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2019-01-11",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-super-guy-guardian-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Winter 2019"
+ },
+ {
+  "name": "Halloween \"Michael Myers\" Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-08-27",
+  "weight_oz": 16.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Glow-in-the-dark",
+   "Scented"
+  ],
+  "theme": [
+   "Horror / slasher"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/true-guy-halloween-michael-myers-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2024"
+ },
+ {
+  "name": "Hanami Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-03-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/hanami-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/hanami-selvedge",
+  "archived_url": null,
+  "season": "Spring 2020"
+ },
+ {
+  "name": "Hard Soft Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-02-21",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/hard-soft-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/rugged-and-comfortable-the-unique-blend-of-fibers-in-the-hard-soft-selvedge-denim",
+  "archived_url": null,
+  "season": "Winter 2023"
+ },
+ {
+  "name": "Hard Twist Organic Herringbone",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-11-07",
+  "weight_oz": 5.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/wide-wild-west-hard-twist-organic-herringbone-ecru-1",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Harley Quinn The Queen Of Chaos Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "DC Comics"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/harley-quinn-the-queen-of-chaos-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Harvest Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-11-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/harvest-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/harvest-selvedge",
+  "archived_url": "https://web.archive.org/web/20220518203710/https://nakedandfamousdenimnyc.com/products/super-guy-harvest-selvedge",
+  "season": "Fall 2021"
+ },
+ {
+  "name": "Hedorah Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-01-06",
+  "weight_oz": 15.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Godzilla"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-hedorah-selvedge-black",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Winter 2026"
+ },
+ {
+  "name": "Hemp Blend Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-11-07",
+  "weight_oz": 11.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Hemp"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-hemp-blend-selvedge-indigo-1",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Herringbone Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-08-21",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/herringbone-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/herringbone-denim-a-timeless-weave-meeting-the-robust-world-of-denim",
+  "archived_url": "https://web.archive.org/web/20230923021603/https://nakedandfamousdenimnyc.com/products/super-guy-herringbone-denim",
+  "season": "Summer 2023"
+ },
+ {
+  "name": "High Noon Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-05-02",
+  "weight_oz": 10.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Scented"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-high-noon-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/womens-high-noon-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-high-noon-selvedge-tradition-woven-into-every-thread",
+  "archived_url": null,
+  "season": "Spring 2025"
+ },
+ {
+  "name": "Huntsman Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-08-11",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/huntsman-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/huntsman-selvedge",
+  "archived_url": "https://web.archive.org/web/20210614192655/https://nakedandfamousdenimnyc.com/products/naked-famous-denim-super-guy-huntsman-selvedge",
+  "season": "Summer 2020"
+ },
+ {
+  "name": "Hyper Flex Stretch Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-09-15",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/hyper-flex-stretch-selvedge",
+  "archived_url": null,
+  "season": "Fall 2020"
+ },
+ {
+  "name": "Iceberg Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-18",
+  "weight_oz": 15.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-iceberg-selvedge-white",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-iceberg-selvedge-cool-by-nature-arctic-white-selvedge-denim",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Ichiban Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-07-20",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Plant / persimmon dye"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/ichiban-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/ichiban-selvedge",
+  "archived_url": "https://web.archive.org/web/20210921201440/https://nakedandfamousdenimnyc.com/products/super-guy-ichiban-selvedge",
+  "season": "Summer 2021"
+ },
+ {
+  "name": "Indigo / Indigo Stretch Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2016-06-17",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-weird-guy-indigo-indigo-stretch-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/fathers-day-special-skinny-boy-indigo-selvedge",
+  "archived_url": null,
+  "season": "Summer 2016"
+ },
+ {
+  "name": "Indigo Duck Canvas Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2018-04-12",
+  "weight_oz": 10.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-indigo-duck-canvas-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2018"
+ },
+ {
+  "name": "Indigo Power Stretch",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2013-12-17",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-indigo-power-stretch",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Winter 2013"
+ },
+ {
+  "name": "Indigo Sashiko",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-04-04",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Scented"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-indigo-sashiko",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/indigo-sashiko",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/indigo-sashiko-tradition-in-every-stitch",
+  "archived_url": null,
+  "season": "Spring 2025"
+ },
+ {
+  "name": "Indigo Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2016-06-17",
+  "weight_oz": 13.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-weird-guy-indigo-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/fathers-day-special-skinny-boy-indigo-selvedge",
+  "archived_url": null,
+  "season": "Summer 2016"
+ },
+ {
+  "name": "Indigo Selvedge Duck Canvas",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2018-07-06",
+  "weight_oz": 10.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/womens-classic-indigo-selvedge-duck-canvas",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2018"
+ },
+ {
+  "name": "Indigo Sugiaya",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-01-12",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-indigo-sugiaya-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/indigo-sugiaya-the-finest-herringbone-twill",
+  "archived_url": null,
+  "season": "Winter 2026"
+ },
+ {
+  "name": "Indigo Tradition Canvas",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-03-12",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/indigo-tradition-canvas",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/indigo-tradition-canvas",
+  "archived_url": null,
+  "season": "Spring 2020"
+ },
+ {
+  "name": "Island Blue Stretch Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-02-23",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/island-blue-stretch-selvedge",
+  "archived_url": null,
+  "season": "Winter 2020"
+ },
+ {
+  "name": "Japan Heritage Black",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-02-23",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/japan-heritage-black",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/japan-heritage-black",
+  "archived_url": "https://web.archive.org/web/20210614192031/https://nakedandfamousdenimnyc.com/products/naked-famous-easy-guy-japan-heritage-black",
+  "season": "Winter 2020"
+ },
+ {
+  "name": "Japan Heritage Kasuri",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-11-01",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/japan-heritage-kasuri",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/japan-heritage-kasuri",
+  "archived_url": "https://web.archive.org/web/20220817204528/https://nakedandfamousdenimnyc.com/products/easy-guy-japan-heritage-kasuri",
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Joker Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "DC Comics"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/joker-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Jolyne Cujoh Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2022-11-09",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "JoJo"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-jolyne-cujoh-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/jolyne-cujoh-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Jonathan Joestar Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2022-11-09",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "JoJo"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/super-guy-jonathan-joestar-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/jonathan-joestar-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Joseph Joestar Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "JoJo"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/joseph-joestar-selvedge",
+  "blog_url": null,
+  "archived_url": "https://web.archive.org/web/20231205025139/https://nakedandfamousdenimnyc.com/products/easy-guy-joseph-joestar-selvedge",
+  "season": null
+ },
+ {
+  "name": "Josuke Higashikata Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "JoJo"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/josuke-higashikata-selvedge",
+  "blog_url": null,
+  "archived_url": "https://web.archive.org/web/20231205015415/https://nakedandfamousdenimnyc.com/products/easy-guy-josuke-higashikata-selvedge",
+  "season": null
+ },
+ {
+  "name": "Jotaro Kujo Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2022-11-09",
+  "weight_oz": 20.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "JoJo"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-jotaro-kujo-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/jotaro-kujo-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Judo Sashiko",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-08-26",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Scented"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/twin-pleat-short-judo-sashiko-ecru",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2024"
+ },
+ {
+  "name": "Karui Stretch Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-07-28",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/karui-stretch-selvedge",
+  "archived_url": null,
+  "season": "Summer 2021"
+ },
+ {
+  "name": "Kasuri Stretch Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-10-24",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/kasuri-stretch-selvedge",
+  "archived_url": null,
+  "season": "Fall 2019"
+ },
+ {
+  "name": "Kawataro Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-08-29",
+  "weight_oz": 14.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-kawataro-selvedge-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/from-river-spirit-to-raw-denim-kawataro-selvedge-unleashed",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Kikko Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-06-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/kikko-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-art-of-weaving-exploring-the-kikko-denim",
+  "archived_url": "https://web.archive.org/web/20230204213555/https://nakedandfamousdenimnyc.com/products/easy-guy-kikko-denim",
+  "season": "Summer 2023"
+ },
+ {
+  "name": "Kimono Print Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-03-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/kimono-print-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/kimono-print-selvedge",
+  "archived_url": "https://web.archive.org/web/20231205021530/https://nakedandfamousdenimnyc.com/products/easy-guy-kimono-print-selvedge",
+  "season": "Spring 2019"
+ },
+ {
+  "name": "King Ghidorah: The Three-Headed Monster Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-09-26",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Godzilla"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/strong-guy-king-ghidorah-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/monstrous-denim-king-ghidorah-x-naked-famous-jeans",
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "King Of Lords Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-01-11",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/king-of-lords-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/king-of-lords",
+  "archived_url": "https://web.archive.org/web/20210921192302/https://nakedandfamousdenimnyc.com/products/easy-guy-king-of-lords-selvedge",
+  "season": "Winter 2022"
+ },
+ {
+  "name": "King Of Slub 2",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2018-10-25",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/king-of-slub-2",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/king-of-slub-estimated-post-soak-measurements",
+  "archived_url": "https://web.archive.org/web/20251016010734/https://nakedandfamousdenim.com/products/easy-guy-king-of-slub-2",
+  "season": "Fall 2018"
+ },
+ {
+  "name": "Le Selvedge De La Belle Province [In Store Exclusive]",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2022-07-06",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-la-belle-province-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/le-selvedge-de-la-belle-province",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/le-selvedge-de-la-belle-province-tate-yoko-montreal-exclusive",
+  "archived_url": null,
+  "season": "Summer 2022"
+ },
+ {
+  "name": "Left Hand Twill Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-03-01",
+  "weight_oz": 13.75,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-weird-guy-left-hand-twill-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/discover-the-fresh-hues-of-summer-with-the-left-hand-twill-selvedge-sky-blue-edition",
+  "archived_url": null,
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Left Hand Twill Sky Blue Edition",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-03-01",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/left-hand-twill-sky-blue-edition",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/discover-the-fresh-hues-of-summer-with-the-left-hand-twill-selvedge-sky-blue-edition",
+  "archived_url": null,
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Lightweight Recycled Selvedge Stone Blue",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-02-13",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Recycled"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/lightweight-recycled-selvedge-stone-blue",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/introducing-our-lightweight-recycled-selvedge-denim-good-for-you-and-the-planet",
+  "archived_url": null,
+  "season": "Winter 2023"
+ },
+ {
+  "name": "Linen Blend Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-11-07",
+  "weight_oz": 8.7,
+  "weight": "Lightweight",
+  "fiber": [
+   "Linen"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/wide-wild-west-linen-blend-denim-indigo-1",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Lord of Nep Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-09-16",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-lord-of-nep-the-neppiest-denim-ever-created",
+  "archived_url": null,
+  "season": "Fall 2019"
+ },
+ {
+  "name": "Love & Peace Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-01-17",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-love-peace-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/peace-love-selvedge-a-softer-flip-of-the-cuff",
+  "archived_url": null,
+  "season": "Winter 2025"
+ },
+ {
+  "name": "Love Peace Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2025-01-17",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/love-peace-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/peace-love-selvedge-a-softer-flip-of-the-cuff",
+  "archived_url": null,
+  "season": "Winter 2025"
+ },
+ {
+  "name": "Maekake Dobby",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-06-08",
+  "weight_oz": 12.2,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Colored core"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/bestie-maekake-dobby-indigo-1",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/tied-to-tradition-maekake-dobby",
+  "archived_url": null,
+  "season": "Summer 2026"
+ },
+ {
+  "name": "Mainline Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-04-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/mainline-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mainline-selvedge",
+  "archived_url": "https://web.archive.org/web/20220527033956/https://nakedandfamousdenimnyc.com/products/easy-guy-mainline-selvedge",
+  "season": "Spring 2022"
+ },
+ {
+  "name": "Majin Buu",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Dragon Ball"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/majin-buu",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Matcha Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-03-21",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Plant / persimmon dye"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/matcha-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/from-tea-to-textile-the-creation-of-matcha-selvedge-denim",
+  "archived_url": "https://web.archive.org/web/20240419153849/https://nakedandfamousdenimnyc.com/products/easy-guy-matcha-selvedge",
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Matrix Falling Code",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "The Matrix"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/matrix-falling-code",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Matrix Free Will Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "The Matrix"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/matrix-free-will-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Max Brush Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-08-22",
+  "weight_oz": 13.75,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-max-brush-selvedge-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-soft-side-of-selvedge-meet-the-max-brush",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Mechagodzilla Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2025-10-17",
+  "weight_oz": 19.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Glow-in-the-dark"
+  ],
+  "theme": [
+   "Godzilla"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-mechagodzilla-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mechagodzilla-selvedge-19oz-denim-inspired-by-the-1974-icon",
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Meteor Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-09-21",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/meteor-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/meteor-selvedge",
+  "archived_url": "https://web.archive.org/web/20251014202610/https://nakedandfamousdenim.com/products/super-guy-meteor-selvedge",
+  "season": "Fall 2021"
+ },
+ {
+  "name": "Midnight Slub Stretch Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-04-25",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/get-to-know-the-high-contrast-fade-potential-of-the-midnight-slub-stretch-selvedge",
+  "archived_url": null,
+  "season": "Spring 2023"
+ },
+ {
+  "name": "MIJ10 - Okayama Spirit",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2023-01-17",
+  "weight_oz": 16.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-mij10-okayama-spirit",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-10th-edition-of-naked-famous-denims-mij-collection-features-the-return-of-the-okayama-spirit-selvedge",
+  "archived_url": null,
+  "season": "Winter 2023"
+ },
+ {
+  "name": "MIJ10 - Okayama Sprit",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2023-01-17",
+  "weight_oz": 16.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/true-guy-mij10-okayama-sprit",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-10th-edition-of-naked-famous-denims-mij-collection-features-the-return-of-the-okayama-spirit-selvedge",
+  "archived_url": null,
+  "season": "Winter 2023"
+ },
+ {
+  "name": "Mij10 Okayama Spirit",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-01-17",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/mij10-okayama-spirit",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-10th-edition-of-naked-famous-denims-mij-collection-features-the-return-of-the-okayama-spirit-selvedge",
+  "archived_url": null,
+  "season": "Winter 2023"
+ },
+ {
+  "name": "MIJ11 - Tokushima Hand Dyed Kakishibu Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2022-05-13",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [
+   "Plant / persimmon dye"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-mij11-tokushima-hand-dyed-kakishibu-selvedge",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2022"
+ },
+ {
+  "name": "Mij11 Kakishibu Hand Dyed Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-03-27",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Plant / persimmon dye"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/mij11-kakishibu-hand-dyed-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij11-kakishibu-hand-dyed-selvedge-denim-an-exquisite-blend-of-tradition-and-craftsmanship",
+  "archived_url": null,
+  "season": "Spring 2023"
+ },
+ {
+  "name": "MIJ12 - Aomidori Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-05-13",
+  "weight_oz": 16.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-mij12-aomidori-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-art-of-greencast-denim-introducing-the-mij12-aomidori-selvedge",
+  "archived_url": null,
+  "season": "Spring 2024"
+ },
+ {
+  "name": "MIJ12 - Aomidori Selvedge (No Embroidery)",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-04-26",
+  "weight_oz": 16.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/true-guy-mij12-aomidori-selvedge-copy",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Mij12 Aomidori Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-05-13",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/mij12-aomidori-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-art-of-greencast-denim-introducing-the-mij12-aomidori-selvedge",
+  "archived_url": null,
+  "season": "Spring 2024"
+ },
+ {
+  "name": "MIJ13 - Okayama Spirit Kuro",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-02-19",
+  "weight_oz": 16.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-mij13-okayama-spirit-kuro",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/a-new-shade-of-tradition-the-mij13-okayama-spirit-kuro",
+  "archived_url": null,
+  "season": "Winter 2024"
+ },
+ {
+  "name": "Mij13 Okayama Spirit Kuro",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-02-19",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/mij13-okayama-spirit-kuro",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/a-new-shade-of-tradition-the-mij13-okayama-spirit-kuro",
+  "archived_url": null,
+  "season": "Winter 2024"
+ },
+ {
+  "name": "MIJ14 - Haru Kaze Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-05-20",
+  "weight_oz": 8.6,
+  "weight": "Lightweight",
+  "fiber": [
+   "Recycled"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/super-guy-mij14-haru-kaze-selvedge-naked-famous-denim",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2025"
+ },
+ {
+  "name": "MIJ15 - Hand Dyed Natural Indigo Kakishibu Intangible Cultural Treasure Selvedge Denim",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2025-07-11",
+  "weight_oz": 15.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Natural indigo",
+   "Plant / persimmon dye",
+   "Glow-in-the-dark"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-mij15-hand-dyed-natural-indigo-x-kakishibu-intangible-cultural-treasure-selvedge-denim",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij15-hand-dyed-natural-indigo-kakishibu-intangible-cultural-treasure-selvedge-denim",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "MIJ15 - Hand Dyed Natural Indigo x Kakishibu Intangible Cultural Treasure Selvedge Denim",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2025-07-11",
+  "weight_oz": 15.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Natural indigo",
+   "Plant / persimmon dye",
+   "Glow-in-the-dark"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/super-guy-mij15-hand-dyed-natural-indigo-x-kakishibu-intangible-cultural-treasure-selvedge-denim",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij15-hand-dyed-natural-indigo-kakishibu-intangible-cultural-treasure-selvedge-denim",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "MIJ16 - Genseki Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2026-01-14",
+  "weight_oz": 19.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-mij16-genseki-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij16-genseki-selvedge",
+  "archived_url": null,
+  "season": "Winter 2026"
+ },
+ {
+  "name": "MIJ17 - Chairo no Kitsune",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-05-04",
+  "weight_oz": 13.3,
+  "weight": "Midweight",
+  "fiber": [
+   "Foxfibre",
+   "Organic"
+  ],
+  "dye": [
+   "Natural indigo",
+   "Plant / persimmon dye"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/strong-guy-mij17-chairo-no-kitsune-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij17-chairo-no-kitsune-selvedge",
+  "archived_url": null,
+  "season": "Spring 2026"
+ },
+ {
+  "name": "MIJ5 - Kogare Kakishibu Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-06-03",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Plant / persimmon dye"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/everything-you-need-to-know-about-the-new-naked-famous-denim-mij-5-kogare-kakishibu",
+  "archived_url": null,
+  "season": "Summer 2019"
+ },
+ {
+  "name": "MIJ7 - Yahan Midnight Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2020-09-23",
+  "weight_oz": 17.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [
+   "Colored core"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-made-in-japan-weird-guy-mij7-yahan-midnight-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij7-yahan-midnight-selvedge",
+  "archived_url": null,
+  "season": "Fall 2020"
+ },
+ {
+  "name": "Mij7 Yahan",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-09-23",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/mij7-yahan",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij7-yahan-midnight-selvedge",
+  "archived_url": null,
+  "season": "Fall 2020"
+ },
+ {
+  "name": "Mij8 Tokushima",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-11-03",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/mij8-tokushima",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij8-tokushima-natural-indigo-hand-dyed-intangible-cultural-treasure-selvedge-denim",
+  "archived_url": null,
+  "season": "Fall 2020"
+ },
+ {
+  "name": "MIJ9 - \"Tennen Ai\" Natural Indigo Slub Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2021-11-09",
+  "weight_oz": 15.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Natural indigo"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/super-guy-mij9-tennen-ai-natural-indigo-slub-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij9-tennen-ai-natural-indigo-slub-selvedge",
+  "archived_url": null,
+  "season": "Fall 2021"
+ },
+ {
+  "name": "Milk Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-02-24",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/milk-selvedge",
+  "archived_url": null,
+  "season": "Winter 2021"
+ },
+ {
+  "name": "Morty Smith Aww Geez Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Rick & Morty"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/morty-smith-aww-geez-selvedge",
+  "blog_url": null,
+  "archived_url": "https://web.archive.org/web/20210616013006/https://nakedandfamousdenimnyc.com/products/naked-famou-denim-weird-guy-morty-smith-selvedge",
+  "season": null
+ },
+ {
+  "name": "Mr Poopy Butthole",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Rick & Morty"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/mr-poopy-butthole",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Natural Indigo",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2020-11-03",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Natural indigo"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/wide-leg-trouser-natural-indigo-indigo",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/mij9-tennen-ai-natural-indigo-slub-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij8-tokushima-natural-indigo-hand-dyed-intangible-cultural-treasure-selvedge-denim",
+  "archived_url": null,
+  "season": "Fall 2020"
+ },
+ {
+  "name": "Natural Indigo Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2020-11-03",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Natural indigo"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-weird-guy-natural-indigo-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/mij8-tokushima-natural-indigo-hand-dyed-intangible-cultural-treasure-selvedge-denim",
+  "archived_url": null,
+  "season": "Fall 2020"
+ },
+ {
+  "name": "Natural Seed Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-04-16",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/natural-seed-denim-by-naked-famous-denim",
+  "archived_url": null,
+  "season": "Spring 2019"
+ },
+ {
+  "name": "New Frontier Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-06-01",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/new-frontier-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/get-the-authentic-look-and-feel-of-vintage-jeans-with-the-new-frontier-selvedge",
+  "archived_url": "https://web.archive.org/web/20230329035410/https://nakedandfamousdenimnyc.com/products/easy-guy-new-frontier-selvedge",
+  "season": "Summer 2023"
+ },
+ {
+  "name": "New Rainbow Core",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-01-25",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/new-rainbow-core",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/new-rainbow-core-selvedge",
+  "archived_url": null,
+  "season": "Winter 2022"
+ },
+ {
+  "name": "Night Sky Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-02-28",
+  "weight_oz": 11.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-night-sky-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/night-sky-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/night-sky-selvedge-warp-and-weft-dynamics",
+  "archived_url": null,
+  "season": "Winter 2025"
+ },
+ {
+  "name": "Nightmare On Elm Street Freddy Krueger Springwood Slasher Selvedge 1",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Horror / slasher"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/nightmare-on-elm-street-freddy-krueger-springwood-slasher-selvedge-1",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Nightshade Stretch Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2018-09-07",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-nightshade-stretch-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/night-shade-stretch-selvedge",
+  "archived_url": null,
+  "season": "Fall 2018"
+ },
+ {
+  "name": "Oceans Edge Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-03-25",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/oceans-edge-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/beyond-traditional-raw-denim-the-oceans-edge-selvedge",
+  "archived_url": "https://web.archive.org/web/20240528104941/https://nakedandfamousdenimnyc.com/products/easy-guy-oceans-edge-selvedge",
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Offshoot Broken Twill Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2022-09-20",
+  "weight_oz": 13.75,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/strong-guy-offshoot-broken-twill-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/offshoot-broken-twill-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/offshoot-broken-twill-selvedge-what-is-broken-twill-denim-anyways",
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Okayama Spirit 4",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2016-04-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/okayama-spirit-4",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/114900804-fw15-pre-order-elephant-5-okayama-spirit-2-and-coffee-dyed-denim",
+  "archived_url": null,
+  "season": "Spring 2016"
+ },
+ {
+  "name": "Okayama Spirit 5",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2016-04-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/okayama-spirit-5",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/114900804-fw15-pre-order-elephant-5-okayama-spirit-2-and-coffee-dyed-denim",
+  "archived_url": "https://web.archive.org/web/20210921195337/https://nakedandfamousdenimnyc.com/products/weird-guy-okayama-spirit-5",
+  "season": "Spring 2016"
+ },
+ {
+  "name": "Organic Faded Corduroy",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-07",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/wide-wild-west-organic-faded-corduroy-pale-indigo",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Organic Hickory",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-11-07",
+  "weight_oz": 10.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/bestie-organic-hickory",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Pagoda Dyed Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2023-12-11",
+  "weight_oz": 15.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/super-guy-pagoda-dyed-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/pagoda-dyed-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-pagoda-dyed-selvedge-and-the-charm-of-natural-dyes",
+  "archived_url": null,
+  "season": "Winter 2023"
+ },
+ {
+  "name": "Perfect Blue Slub Stretch Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-10-25",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/perfect-blue-slub-stretch-selvedge",
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Pickle Rick Solenya Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-05-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Rick & Morty"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/pickle-rick-solenya-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/pickle-rick-solenya-selvedge",
+  "archived_url": "https://web.archive.org/web/20210918072552/https://nakedandfamousdenimnyc.com/products/naked-famou-denim-super-guy-pickle-rick-selvedge",
+  "season": "Spring 2021"
+ },
+ {
+  "name": "Pure Hemp Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-04-08",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Hemp"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/pure-hemp-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/rare-textures-exploring-the-unique-pure-hemp-denim",
+  "archived_url": "https://web.archive.org/web/20240528094720/https://nakedandfamousdenimnyc.com/products/weird-guy-pure-hemp-denim",
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Purple Core Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-01-19",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Colored core"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/purple-core-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/purple-core-selvedge",
+  "archived_url": "https://web.archive.org/web/20210616015722/https://nakedandfamousdenimnyc.com/products/naked-famous-denim-weird-guy-purple-core-selvedge",
+  "season": "Winter 2021"
+ },
+ {
+  "name": "Puzzle Weave Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2018-01-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/puzzle-weave",
+  "archived_url": null,
+  "season": "Winter 2018"
+ },
+ {
+  "name": "Raised By Wolves X Nf",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/raised-by-wolves-x-nf",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Raw Cotton Canvas",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-10-12",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/raw-cotton-canvas",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/raw-cotton-canvas",
+  "archived_url": "https://web.archive.org/web/20220817185504/https://nakedandfamousdenimnyc.com/products/super-guy-raw-cotton-canvas-brown",
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Raw Cotton Slub Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-04-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/raw-cotton-slub-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/raw-cotton-slub-selvedge",
+  "archived_url": "https://web.archive.org/web/20220527032136/https://nakedandfamousdenimnyc.com/products/super-guy-raw-cotton-slub-selvedge",
+  "season": "Spring 2022"
+ },
+ {
+  "name": "Raw Linen Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-05-10",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Linen"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/raw-linen-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/raw-linen-slub-denim",
+  "archived_url": null,
+  "season": "Spring 2022"
+ },
+ {
+  "name": "Recycled Kimono Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-02-28",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Recycled"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/recycled-kimono-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/add-some-japanese-culture-to-your-denim-collection-with-the-recycled-kimono-weft-selvedge",
+  "archived_url": null,
+  "season": "Winter 2023"
+ },
+ {
+  "name": "Recycled Selvedge Stone Blue",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-03-30",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Recycled"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/recycled-selvedge-stone-blue",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/recycled-selvedge-stone-blue",
+  "archived_url": null,
+  "season": "Spring 2021"
+ },
+ {
+  "name": "Red Gradient Core Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-08-16",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Colored core"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/red-gradient-core-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/red-gradient-core-selvedge",
+  "archived_url": "https://web.archive.org/web/20230127013612/https://nakedandfamousdenimnyc.com/products/super-guy-red-gradient-core-selvedge",
+  "season": "Summer 2022"
+ },
+ {
+  "name": "Revival Frankenstein Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-01-15",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-revival-frankenstein-denim",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/revival-frankenstein-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/frankenstein-denim-twists-turns",
+  "archived_url": null,
+  "season": "Winter 2025"
+ },
+ {
+  "name": "Rick Sanchez Wubba Lubba Dub Dub Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Rick & Morty"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/rick-sanchez-wubba-lubba-dub-dub-selvedge",
+  "blog_url": null,
+  "archived_url": "https://web.archive.org/web/20210616002733/https://nakedandfamousdenimnyc.com/products/naked-famou-denim-super-guy-rick-sanchez-selvedge",
+  "season": null
+ },
+ {
+  "name": "Rinsed Oxford",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-03-19",
+  "weight_oz": 8.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/wide-leg-trouser-rinsed-oxford-black",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Sakiori Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-03-18",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Recycled"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/sakiori-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/sakiori-denim",
+  "archived_url": null,
+  "season": "Spring 2020"
+ },
+ {
+  "name": "Sakura Sky",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2023-04-04",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Glow-in-the-dark"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/maudie-sakura-sky-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/womens-sakura-sky-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/embrace-the-beauty-of-cherry-blossom-season-with-the-sakura-sky-selvedge",
+  "archived_url": null,
+  "season": "Spring 2023"
+ },
+ {
+  "name": "Sakura Slub Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-02-07",
+  "weight_oz": 16.5,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Scented"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-sakura-slub-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/sakura-slub-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/sakura-slub-selvedge-a-subtle-nod-to-tradition",
+  "archived_url": null,
+  "season": "Winter 2025"
+ },
+ {
+  "name": "Salvaged Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-09-13",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Recycled"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/salvaged-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-salvaged-selvedge-japanese-selvedge-denim-saved-from-disaster",
+  "archived_url": "https://web.archive.org/web/20230127011748/https://nakedandfamousdenimnyc.com/products/easy-guy-salvaged-selvedge",
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Salvaged Selvedge Flood Damage",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Recycled"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/salvaged-selvedge-flood-damage",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Scratch N Sniff Hiba Cypress Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-09-27",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Plant / persimmon dye",
+   "Scented"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/scratch-n-sniff-hiba-cypress-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/scratch-n-sniff-hiba-cypress-scented-japanese-selvedge-denim",
+  "archived_url": null,
+  "season": "Fall 2022"
+ },
+ {
+  "name": "Sea Island Cotton Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-08-28",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/sea-island-cotton-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/sea-island-cotton-selvedge-where-luxury-and-durability-intersect",
+  "archived_url": "https://web.archive.org/web/20230923021822/https://nakedandfamousdenimnyc.com/products/easy-guy-sea-island-cotton-selvedge",
+  "season": "Summer 2023"
+ },
+ {
+  "name": "Sea Island Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2023-08-28",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cashmere"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/super-guy-sea-island-selvedge-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/sea-island-cotton-selvedge-where-luxury-and-durability-intersect",
+  "archived_url": null,
+  "season": "Summer 2023"
+ },
+ {
+  "name": "Seaweed Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2019-02-28",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/seaweed-selvedge-by-naked-famous-denim",
+  "archived_url": null,
+  "season": "Winter 2019"
+ },
+ {
+  "name": "Secret Agent Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-03-20",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Fade-reveal"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-secret-agent-bleach-blue",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/secret-agent",
+  "archived_url": null,
+  "season": "Spring 2026"
+ },
+ {
+  "name": "Selvedge Hickory",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-11-07",
+  "weight_oz": 10.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-hickory-selvedge-1",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Selvedge Slacks Beige",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-03-04",
+  "weight_oz": 10.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-selvedge-slacks-beige-1",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/selvedge-slacks-the-dressy-selvedge",
+  "archived_url": null,
+  "season": "Spring 2026"
+ },
+ {
+  "name": "Selvedge Slacks Black",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-03-04",
+  "weight_oz": 10.0,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-selvedge-slacks-black",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/selvedge-slacks-the-dressy-selvedge",
+  "archived_url": null,
+  "season": "Spring 2026"
+ },
+ {
+  "name": "Shin Godzilla Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2025-11-14",
+  "weight_oz": 20.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Godzilla"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-shin-godzilla-indigo",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/shin-gojira-selvedge-ultra-heavy-denim-with-radiation-weft",
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Shinigami Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-11-15",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/the-legendary-return-of-the-shinigami-selvedge",
+  "archived_url": null,
+  "season": "Fall 2024"
+ },
+ {
+  "name": "Sky High Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-03-24",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/sky-high-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/summer-sky-selvedge",
+  "archived_url": "https://web.archive.org/web/20220527025210/https://nakedandfamousdenimnyc.com/products/easy-guy-sky-high-selvedge",
+  "season": "Spring 2021"
+ },
+ {
+  "name": "Slub Nep Stretch",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-08-26",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/maudie-slub-nep-stretch",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/womens-slub-nep-stretch",
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2024"
+ },
+ {
+  "name": "Smokey Cotton Slub Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-07-26",
+  "weight_oz": 16.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-smokey-cotton-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/smokey-cotton-slub-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/expand-your-autumn-wardrobe-with-smokey-cotton-slub-selvedge",
+  "archived_url": null,
+  "season": "Summer 2024"
+ },
+ {
+  "name": "Solid Black Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-04-27",
+  "weight_oz": 13.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-weird-guy-solid-black-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/solid-black-selvedge-back-in-stock",
+  "archived_url": null,
+  "season": "Spring 2026"
+ },
+ {
+  "name": "Solid Black Selvedge Washed",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-07",
+  "weight_oz": 13.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/true-girl-solid-black-selvedge-washed-black",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Spring Garden Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-03-12",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/spring-garden-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/colorful-threads-weaving-monet-s-garden-into-the-spring-garden-selvedge",
+  "archived_url": "https://web.archive.org/web/20240419145517/https://nakedandfamousdenimnyc.com/products/easy-guy-spring-garden-selvedge",
+  "season": "Spring 2024"
+ },
+ {
+  "name": "Strawberry Milk Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2022-03-14",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/strawberry-milk-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/strawberry-milk-selvedge",
+  "archived_url": "https://web.archive.org/web/20220527022941/https://nakedandfamousdenimnyc.com/products/easy-guy-strawberry-milk-selvedge",
+  "season": "Spring 2022"
+ },
+ {
+  "name": "Streamline Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-03-05",
+  "weight_oz": 9.25,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Coated / waxed"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-streamline-selvedge-1",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/streamline-selvedge",
+  "archived_url": null,
+  "season": "Spring 2026"
+ },
+ {
+  "name": "Stretch Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2013-12-17",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-weird-guy-stretch-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/strong-guy-dirty-fade-stretch-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Winter 2013"
+ },
+ {
+  "name": "Stretch Selvedge Raw",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2019-03-05",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/womens-max-stretch-selvedge-raw",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/kimono-print-selvedge",
+  "archived_url": null,
+  "season": "Spring 2019"
+ },
+ {
+  "name": "Stretch Selvedge Raw Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2019-03-05",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-the-skinny-raw-stretch-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/kimono-print-selvedge",
+  "archived_url": null,
+  "season": "Spring 2019"
+ },
+ {
+  "name": "Sumi Ink Coated Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2023-09-11",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Coated / waxed"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/sumi-ink-coated-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/ink-indigo-and-innovation-the-craftsmanship-behind-sumi-ink-coated-selvedge",
+  "archived_url": "https://web.archive.org/web/20230923012733/https://nakedandfamousdenimnyc.com/products/easy-guy-sumi-ink-coated-selvedge",
+  "season": "Fall 2023"
+ },
+ {
+  "name": "Summer Sky Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-03-24",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/summer-sky-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/summer-sky-selvedge",
+  "archived_url": "https://web.archive.org/web/20210726155106/https://nakedandfamousdenimnyc.com/products/naked-famous-denim-super-guy-summer-sky-selvedge",
+  "season": "Spring 2021"
+ },
+ {
+  "name": "Super Heavyweight 40oz Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2025-03-18",
+  "weight_oz": 40.0,
+  "weight": "Super-heavy",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/weird-guy-super-heavyweight-40oz-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/super-heavyweight-40oz-the-worlds-heaviest-denim-jean",
+  "archived_url": null,
+  "season": "Spring 2025"
+ },
+ {
+  "name": "Super Sexy Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2026-03-02",
+  "weight_oz": 14.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Organic"
+  ],
+  "dye": [
+   "Glow-in-the-dark"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-super-sexy-selvedge-denim-black",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/montreal-exclusive-super-sexy-selvedge",
+  "archived_url": null,
+  "season": "Spring 2026"
+ },
+ {
+  "name": "Tabi Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-11-07",
+  "weight_oz": 11.5,
+  "weight": "Lightweight",
+  "fiber": [
+   "Linen"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-tabi-selvedge-off-white-1",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Tatami Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-07-22",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/tatami-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/tatami-denim",
+  "archived_url": null,
+  "season": "Summer 2020"
+ },
+ {
+  "name": "Texas Chainsaw Massacre \"Leatherface\" Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2025-07-07",
+  "weight_oz": 14.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Horror / slasher"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-texas-chainsaw-massacre-indigo",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Toxic Avenger",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": null,
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Horror / slasher"
+  ],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/toxic-avenger",
+  "blog_url": null,
+  "archived_url": null,
+  "season": null
+ },
+ {
+  "name": "Tried & True Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-02-05",
+  "weight_oz": 12.5,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-tried-true-selvedge",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/crafting-classics-the-artful-details-of-the-tried-amp-true-selvedge",
+  "archived_url": null,
+  "season": "Winter 2024"
+ },
+ {
+  "name": "Tried True Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-02-05",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/tried-true-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/crafting-classics-the-artful-details-of-the-tried-amp-true-selvedge",
+  "archived_url": null,
+  "season": "Winter 2024"
+ },
+ {
+  "name": "Triple Yarn Twist Brushed Tweed",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2024-03-19",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Wool"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/wide-leg-trouser-triple-yarn-twist-brushed-tweed-desert-sunset",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Spring 2024"
+ },
+ {
+  "name": "True Grit Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-02-12",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/true-grit-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/true-grit-selvedge",
+  "archived_url": null,
+  "season": "Winter 2020"
+ },
+ {
+  "name": "Trunks Future Selvedge",
+  "status": "active",
+  "in_stock": false,
+  "release_date": "2024-07-23",
+  "weight_oz": 18.0,
+  "weight": "Heavyweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [
+   "Dragon Ball"
+  ],
+  "shop_url": "https://nakedandfamousdenim.com/products/weird-guy-trunks-future-selvedge-pre-order",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/trunks-future-selvedge",
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2024"
+ },
+ {
+  "name": "Turmeric Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-10-12",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Plant / persimmon dye"
+  ],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/turmeric-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/turmeric-selvedge",
+  "archived_url": "https://web.archive.org/web/20211016214542/https://nakedandfamousdenimnyc.com/products/easy-guy-turmeric-selvedge",
+  "season": "Fall 2021"
+ },
+ {
+  "name": "Ultralight Tech Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2022-06-14",
+  "weight_oz": 5.5,
+  "weight": "Lightweight",
+  "fiber": [
+   "Synthetic / tech"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/arrow-ultralight-tech-denim",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/ultralight-tech-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/ultralight-tech-denim",
+  "archived_url": null,
+  "season": "Summer 2022"
+ },
+ {
+  "name": "Undyed Frankenstein Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-01-30",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/undyed-frankenstein-denim",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/reviving-a-cult-classic-introducing-the-undyed-frankenstein-denim",
+  "archived_url": "https://web.archive.org/web/20240229023310/https://nakedandfamousdenimnyc.com/products/easy-guy-undyed-frankenstein-denim",
+  "season": "Winter 2024"
+ },
+ {
+  "name": "Vertical Slub Denim",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-11-07",
+  "weight_oz": 11.2,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/wide-wild-west-vertical-slub-denim-indigo-1",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Fall 2025"
+ },
+ {
+  "name": "Vulgar Selvedge 2",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2020-09-07",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/vulgar-selvedge-2",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/vulgar-selvedge-2",
+  "archived_url": null,
+  "season": "Fall 2020"
+ },
+ {
+  "name": "Wax Coated Black Stretch",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2014-08-29",
+  "weight_oz": 12.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [
+   "Coated / waxed"
+  ],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/naked-famous-denim-stacked-guy-wax-coated-black-stretch",
+  "showcase_url": null,
+  "blog_url": null,
+  "archived_url": null,
+  "season": "Summer 2014"
+ },
+ {
+  "name": "Whisper Stretch",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-03-09",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/whisper-stretch",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/whisper-stretch-denim",
+  "archived_url": null,
+  "season": "Spring 2021"
+ },
+ {
+  "name": "Wine Dyed Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2017-10-11",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/wine-dyed-selvedge-denim",
+  "archived_url": null,
+  "season": "Fall 2017"
+ },
+ {
+  "name": "Workforce Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-07-04",
+  "weight_oz": 10.9,
+  "weight": "Lightweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/super-guy-workforce-selvedge",
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/workforce-selvedge",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/workforce-selvedge-a-tribute-to-classic-workwear",
+  "archived_url": null,
+  "season": "Summer 2025"
+ },
+ {
+  "name": "Workman Blue Selvedge",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2018-02-09",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/workman-blue-selvedge",
+  "archived_url": null,
+  "season": "Winter 2018"
+ },
+ {
+  "name": "Yagasuri Denim",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2024-10-25",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/yagasuri-denim-a-symphony-of-texture-tradition-and-tone",
+  "archived_url": null,
+  "season": "Fall 2024"
+ },
+ {
+  "name": "Yahan Power Stretch",
+  "status": "discontinued",
+  "in_stock": false,
+  "release_date": "2021-09-01",
+  "weight_oz": null,
+  "weight": "Unknown",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": null,
+  "showcase_url": "https://nakedandfamousdenim.squarespace.com/yahan-power-stretch",
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/yahan-power-stretch",
+  "archived_url": "https://web.archive.org/web/20210921200125/https://nakedandfamousdenimnyc.com/products/weird-guy-yahan-power-stretch",
+  "season": "Fall 2021"
+ },
+ {
+  "name": "Yatagarasu Selvedge",
+  "status": "active",
+  "in_stock": true,
+  "release_date": "2025-10-31",
+  "weight_oz": 15.0,
+  "weight": "Midweight",
+  "fiber": [
+   "Cotton"
+  ],
+  "dye": [],
+  "theme": [],
+  "shop_url": "https://nakedandfamousdenim.com/products/easy-guy-yatagarasu-selvedge-black",
+  "showcase_url": null,
+  "blog_url": "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim/wings-of-darkness-the-yatagarasu-selvedge",
+  "archived_url": null,
+  "season": "Fall 2025"
+ }
+]

@@ -16,12 +16,14 @@ import requests
 
 from build_catalog import collect, weight_oz, SQ
 from tags import tag_row, slug
+from blog_match import season_label, SEASON, ORDER
 
 IMG_CACHE = "jeans_alert/squarespace_images.json"
 WORKERS = 8
-GROUPS = [("weight", "Weight"), ("fiber", "Fiber"),
-          ("dye", "Dye / finish"), ("theme", "Theme / collab")]
-WEIGHT_ORDER = ["Lightweight", "Midweight", "Heavyweight", "Super-heavy", "Unknown"]
+# Weight is a continuous slider (on the oz value); these three are chip facets
+# tucked inside the "Filter" popover.
+FILTER_GROUPS = [("fiber", "Fiber"), ("dye", "Dye / finish"),
+                 ("theme", "Theme / collab")]
 
 
 def squarespace_images(slug_, limit=6):
@@ -67,18 +69,15 @@ def attach_images(rows):
 
 
 def chips_html(rows):
-    counts = {g: Counter() for g, _ in GROUPS}
+    """Fiber / dye / theme chip groups (shown inside the Filter popover)."""
+    counts = {g: Counter() for g, _ in FILTER_GROUPS}
     for r in rows:
-        counts["weight"][r["weight"]] += 1
-        for g in ("fiber", "dye", "theme"):
+        for g, _ in FILTER_GROUPS:
             for v in r[g]:
                 counts[g][v] += 1
     blocks = []
-    for g, label in GROUPS:
-        if g == "weight":
-            vals = [v for v in WEIGHT_ORDER if v in counts[g]]
-        else:
-            vals = [v for v, _ in counts[g].most_common()]
+    for g, label in FILTER_GROUPS:
+        vals = [v for v, _ in counts[g].most_common()]
         chips = "".join(
             f'<button class="chip" data-group="{g}" data-val="{slug(v)}">'
             f'{html.escape(v)} <i>{counts[g][v]}</i></button>' for v in vals)
@@ -86,11 +85,20 @@ def chips_html(rows):
     return "\n".join(blocks)
 
 
+def oz_bounds(rows):
+    """Min/max denim weight (oz) across fabrics with a known weight."""
+    vals = [r["weight_oz"] for r in rows if r.get("weight_oz")]
+    if not vals:
+        return 0, 40
+    import math
+    return int(math.floor(min(vals))), int(math.ceil(max(vals)))
+
+
 def cards_html(rows):
     out = []
     for r in rows:
         name = html.escape(r["name"])
-        active = r["status"] == "active"
+        active = r["in_stock"]  # "available" = at least one buyable size in stock
         imgs = r["images"] or []
         data_imgs = html.escape("|".join(imgs))
         # Link priority: live shop first, then Squarespace showcase, then Wayback archive.
@@ -101,6 +109,8 @@ def cards_html(rows):
             links.append(f'<a href="{html.escape(r["showcase_url"])}" target="_blank" rel="noopener">Showcase</a>')
         if r["archived_url"]:
             links.append(f'<a href="{html.escape(r["archived_url"])}" target="_blank" rel="noopener">Archived</a>')
+        if r.get("blog_url"):
+            links.append(f'<a href="{html.escape(r["blog_url"])}" target="_blank" rel="noopener">Blog</a>')
         thumb = (f'<img loading="lazy" src="{html.escape(imgs[0])}" alt="{name}" '
                  f'onerror="this.closest(\'.card\').classList.add(\'noimg\')">' if imgs else "")
         meta = []
@@ -109,32 +119,67 @@ def cards_html(rows):
         meta += [html.escape(x) for x in r["fiber"] if x != "Cotton"]
         meta += [html.escape(x) for x in r["dye"]] + [html.escape(x) for x in r["theme"]]
         chips = "".join(f'<span class="tag">{m}</span>' for m in meta)
+        season = season_label(r.get("release_date"))
+        rel = f'<div class="rel">Released ~{html.escape(season)}</div>' if season else ""
+        data_season = slug(season) if season else ""
+        data_year = (r.get("release_date") or "")[:4]
         out.append(
             f'<figure class="card {"active" if active else "disc"}{"" if imgs else " noimg"}" '
             f'data-name="{name.lower()}" data-status="{"active" if active else "disc"}" '
-            f'data-weight="{slug(r["weight"])}" data-fiber="{" ".join(slug(x) for x in r["fiber"])}" '
+            f'data-weight="{slug(r["weight"])}" data-oz="{r["weight_oz"] if r["weight_oz"] else ""}" '
+            f'data-fiber="{" ".join(slug(x) for x in r["fiber"])}" '
             f'data-dye="{" ".join(slug(x) for x in r["dye"])}" '
             f'data-theme="{" ".join(slug(x) for x in r["theme"])}" '
+            f'data-season="{data_season}" data-year="{data_year}" '
             f'data-imgs="{data_imgs}" data-title="{name}">'
             f'<div class="thumb">{thumb}<span class="ph">no photo</span>'
             f'{f"<span class=cnt>{len(imgs)}</span>" if len(imgs) > 1 else ""}</div>'
             f'<figcaption><span class="badge {"b-active" if active else "b-disc"}">'
-            f'{"Active" if active else "Discontinued"}</span>'
-            f'<h3>{name}</h3><div class="meta">{chips}</div>'
+            f'{"Available" if active else "Unavailable"}</span>'
+            f'<h3>{name}</h3>{rel}<div class="meta">{chips}</div>'
             f'<div class="links">{" ".join(links)}</div></figcaption></figure>')
     return "\n".join(out)
 
 
+def heatmap_html(rows):
+    """Compact year×season grid of release counts (seasons as rows, years as
+    columns) for the header. Cell shade scales with the count."""
+    grid = Counter()
+    for r in rows:
+        d = r.get("release_date")
+        if d:
+            grid[(d[:4], SEASON[int(d[5:7])])] += 1
+    if not grid:
+        return ""
+    years = sorted({y for y, _ in grid})
+    mx = max(grid.values())
+    out = [f'<div class="heatmap" style="grid-template-columns:auto repeat({len(years)},1fr)">',
+           '<div class="hm-cell hm-corner"></div>']
+    out += [f'<div class="hm-cell hm-head">’{y[2:]}</div>' for y in years]
+    for s in ORDER:
+        out.append(f'<div class="hm-cell hm-season">{s}</div>')
+        for y in years:
+            n = grid[(y, s)]
+            st = f'background:rgba(91,140,255,{0.12 + 0.88 * n / mx:.2f})' if n else ''
+            out.append(f'<div class="hm-cell" style="{st}" title="{s} {y}: {n}">{n or ""}</div>')
+    out.append('</div>')
+    return "".join(out)
+
+
 def render(rows):
-    n_active = sum(1 for r in rows if r["status"] == "active")
-    n_disc = len(rows) - n_active
+    n_avail = sum(1 for r in rows if r["in_stock"])
+    n_unavail = len(rows) - n_avail
     n_img = sum(1 for r in rows if r["images"])
-    sub = (f'{len(rows)} fabrics · {n_active} active · {n_disc} discontinued/limited · '
-           f'{n_img} with photos. Click a photo to zoom. '
-           f'Sources: live shop, Squarespace fabric pages, Wayback Machine.')
+    n_dated = sum(1 for r in rows if r.get("release_date"))
+    sub = (f'{len(rows)} fabrics · {n_avail} available · {n_unavail} unavailable · '
+           f'{n_img} with photos · {n_dated} dated. Click a photo to zoom. '
+           f'Sources: live shop, Squarespace fabric pages, blog announcements, Wayback Machine.')
+    oz_lo, oz_hi = oz_bounds(rows)
     tpl = TEMPLATE
     for k, v in {"%%SUB%%": sub, "%%CHIPS%%": chips_html(rows),
-                 "%%CARDS%%": cards_html(rows), "%%TOTAL%%": str(len(rows))}.items():
+                 "%%CARDS%%": cards_html(rows), "%%TOTAL%%": str(len(rows)),
+                 "%%HEATMAP%%": heatmap_html(rows),
+                 "%%OZMIN%%": str(oz_lo), "%%OZMAX%%": str(oz_hi)}.items():
         tpl = tpl.replace(k, v)
     return tpl
 
@@ -162,11 +207,48 @@ TEMPLATE = r"""<!doctype html>
   .seg button:first-child { border-radius:9px 0 0 9px; }
   .seg button:last-child { border-radius:0 9px 9px 0; }
   .seg button.on { color:#fff; background:var(--acc); border-color:var(--acc); }
-  .facets { padding:10px 24px 4px; border-bottom:1px solid var(--line); position:sticky;
-            top:108px; background:#0f1115f2; backdrop-filter:blur(8px); z-index:15; }
+  .facets { padding:12px 24px; border-bottom:1px solid var(--line); position:sticky;
+            top:108px; background:#0f1115f2; backdrop-filter:blur(8px); z-index:15;
+            display:flex; align-items:center; gap:20px; flex-wrap:wrap; }
   .fgroup { display:flex; align-items:baseline; gap:7px; flex-wrap:wrap; margin:7px 0; }
   .flabel { color:var(--mut); font-size:11px; text-transform:uppercase; letter-spacing:.6px;
             min-width:84px; }
+  /* weight range slider (dual handle, on oz) */
+  .wslider { align-items:center; margin:0; }
+  .wslider .flabel { min-width:auto; }
+  .range { position:relative; width:230px; height:28px; }
+  .range .track { position:absolute; top:12px; left:0; right:0; height:4px;
+                  background:var(--line); border-radius:2px; }
+  .range .fill { position:absolute; height:100%; background:var(--acc); border-radius:2px; }
+  .range input[type=range] { position:absolute; top:0; left:0; width:100%; height:28px;
+            margin:0; background:none; pointer-events:none; -webkit-appearance:none;
+            appearance:none; }
+  .range input[type=range]::-webkit-slider-thumb { pointer-events:auto;
+            -webkit-appearance:none; appearance:none; width:16px; height:16px;
+            border-radius:50%; background:var(--acc); border:2px solid #fff; cursor:pointer; }
+  .range input[type=range]::-moz-range-thumb { pointer-events:auto; width:16px; height:16px;
+            border-radius:50%; background:var(--acc); border:2px solid #fff; cursor:pointer; }
+  .range input[type=range]::-webkit-slider-runnable-track { background:none; }
+  .range input[type=range]::-moz-range-track { background:none; }
+  .rangeval { color:var(--mut); font-size:12.5px; min-width:88px; white-space:nowrap; }
+  /* Filter popover */
+  .fbtn { background:#10131a; color:#c7cdd9; border:1px solid var(--line); border-radius:999px;
+          padding:7px 14px; font-size:13px; cursor:pointer; display:inline-flex;
+          align-items:center; gap:7px; }
+  .fbtn:hover { border-color:var(--acc); }
+  .fbtn.on { color:#fff; background:var(--acc); border-color:var(--acc); }
+  .fbadge { background:#fff; color:var(--acc); border-radius:999px; font-size:11px;
+            font-weight:700; min-width:18px; height:18px; padding:0 5px; display:inline-flex;
+            align-items:center; justify-content:center; }
+  .fbtn:not(.on) .fbadge { background:var(--acc); color:#fff; }
+  .fpop { position:absolute; top:calc(100% - 1px); left:24px; right:24px; max-width:760px;
+          background:#13161d; border:1px solid var(--line); border-radius:12px;
+          padding:6px 16px 12px; box-shadow:0 16px 50px #000a; z-index:30; }
+  .fpop-foot { margin-top:8px; padding-top:10px; border-top:1px solid var(--line);
+               display:flex; justify-content:flex-end; }
+  .fclear { background:none; border:1px solid var(--line); color:var(--mut); border-radius:8px;
+            padding:6px 13px; font-size:12.5px; cursor:pointer; }
+  .fclear:hover { color:var(--ink); border-color:var(--acc); }
   .chip { background:#10131a; color:#c7cdd9; border:1px solid var(--line); border-radius:999px;
           padding:4px 10px; font-size:12.5px; cursor:pointer; }
   .chip i { color:var(--mut); font-style:normal; font-size:11px; }
@@ -191,12 +273,20 @@ TEMPLATE = r"""<!doctype html>
            text-transform:uppercase; padding:3px 7px; border-radius:5px; }
   .b-active { background:#16321f; color:#5fd08a; }
   .b-disc { background:#3a2a12; color:#e6a85a; }
+  .rel { font-size:11px; color:var(--mut); margin-top:-3px; }
   .meta { display:flex; flex-wrap:wrap; gap:5px; }
   .tag { font-size:10.5px; color:#aeb6c4; background:#12151c; border:1px solid var(--line);
          padding:2px 7px; border-radius:5px; }
   .links { display:flex; flex-wrap:wrap; gap:6px 12px; margin-top:2px; }
   .links a { color:var(--acc); text-decoration:none; font-size:12.5px; }
   .links a:hover { text-decoration:underline; }
+  /* release timeline heatmap (year × season) */
+  .hmband { padding:10px 24px; border-bottom:1px solid var(--line); overflow-x:auto; }
+  .heatmap { display:grid; gap:2px; width:max-content; font-size:10px; }
+  .hm-cell { min-width:22px; height:18px; display:flex; align-items:center;
+             justify-content:center; border-radius:3px; color:#dce3f0; background:#12151c; }
+  .hm-head, .hm-season, .hm-corner { background:none; color:var(--mut); }
+  .hm-season { justify-content:flex-end; padding-right:8px; }
   .hidden { display:none !important; }
   /* lightbox */
   #lb { position:fixed; inset:0; background:#000d; display:none; z-index:50;
@@ -219,13 +309,29 @@ TEMPLATE = r"""<!doctype html>
     <input id="q" type="search" placeholder="Search fabrics… (e.g. core, godzilla, kasuri)">
     <div class="seg" id="seg">
       <button class="on" data-f="all">All</button>
-      <button data-f="active">Active</button>
-      <button data-f="disc">Discontinued</button>
+      <button data-f="active">Available</button>
+      <button data-f="disc">Unavailable</button>
     </div>
     <span class="count" id="count"></span>
   </div>
 </header>
-<div class="facets">%%CHIPS%%</div>
+<div class="hmband">%%HEATMAP%%</div>
+<div class="facets">
+  <div class="fgroup wslider">
+    <span class="flabel">Weight</span>
+    <div class="range" id="range">
+      <div class="track"><div class="fill" id="fill"></div></div>
+      <input type="range" id="wmin" min="%%OZMIN%%" max="%%OZMAX%%" step="0.5" value="%%OZMIN%%">
+      <input type="range" id="wmax" min="%%OZMIN%%" max="%%OZMAX%%" step="0.5" value="%%OZMAX%%">
+    </div>
+    <span class="rangeval" id="wval"></span>
+  </div>
+  <button class="fbtn" id="fbtn">Filter <span class="fbadge hidden" id="fbadge">0</span></button>
+  <div class="fpop hidden" id="fpop">
+    %%CHIPS%%
+    <div class="fpop-foot"><button class="fclear" id="fclear">Clear all</button></div>
+  </div>
+</div>
 <main class="grid" id="grid">
 %%CARDS%%
 </main>
@@ -235,14 +341,35 @@ TEMPLATE = r"""<!doctype html>
   const grid=document.getElementById('grid'), q=document.getElementById('q'),
         countEl=document.getElementById('count');
   let statusF='all';
-  const active={weight:new Set(),fiber:new Set(),dye:new Set(),theme:new Set()};
+  const active={fiber:new Set(),dye:new Set(),theme:new Set()};
+
+  // weight range slider (dual handle, on the oz value)
+  const wmin=document.getElementById('wmin'), wmax=document.getElementById('wmax'),
+        fill=document.getElementById('fill'), wval=document.getElementById('wval');
+  const OZMIN=+wmin.min, OZMAX=+wmax.max, SPAN=(OZMAX-OZMIN)||1;
+  function syncRange(){
+    const lo=+wmin.value, hi=+wmax.value;
+    fill.style.left=((lo-OZMIN)/SPAN*100)+'%';
+    fill.style.right=((OZMAX-hi)/SPAN*100)+'%';
+    wval.textContent=lo+'–'+hi+' oz';
+  }
+  wmin.addEventListener('input', ()=>{
+    if(+wmin.value>+wmax.value) wmin.value=wmax.value; syncRange(); apply(); });
+  wmax.addEventListener('input', ()=>{
+    if(+wmax.value<+wmin.value) wmax.value=wmin.value; syncRange(); apply(); });
 
   function apply(){
     const term=q.value.trim().toLowerCase();
+    const lo=+wmin.value, hi=+wmax.value, fullW=(lo<=OZMIN && hi>=OZMAX);
     let shown=0;
     for(const c of grid.children){
       let ok = (statusF==='all'||c.dataset.status===statusF) &&
                (!term||c.dataset.name.includes(term));
+      if(ok){
+        const oz=parseFloat(c.dataset.oz);
+        // unknown-weight fabrics pass only while the slider spans the full range
+        ok = isNaN(oz) ? fullW : (oz>=lo && oz<=hi);
+      }
       for(const g in active){
         if(ok && active[g].size){
           const have=(c.dataset[g]||'').split(' ');
@@ -260,14 +387,32 @@ TEMPLATE = r"""<!doctype html>
     for(const b of e.target.parentNode.children) b.classList.remove('on');
     e.target.classList.add('on'); statusF=e.target.dataset.f; apply();
   });
+
+  // Filter popover (fiber / dye / theme)
+  const fbtn=document.getElementById('fbtn'), fpop=document.getElementById('fpop'),
+        fbadge=document.getElementById('fbadge');
+  function updateBadge(){
+    let n=0; for(const g in active) n+=active[g].size;
+    fbadge.textContent=n; fbadge.classList.toggle('hidden', !n);
+    fbtn.classList.toggle('on', !!n);
+  }
+  fbtn.addEventListener('click', e=>{ e.stopPropagation(); fpop.classList.toggle('hidden'); });
+  fpop.addEventListener('click', e=>e.stopPropagation());
+  document.addEventListener('click', ()=>fpop.classList.add('hidden'));
   for(const chip of document.querySelectorAll('.chip')){
     chip.addEventListener('click', ()=>{
       const g=chip.dataset.group, v=chip.dataset.val;
       chip.classList.toggle('on');
       active[g].has(v)?active[g].delete(v):active[g].add(v);
-      apply();
+      updateBadge(); apply();
     });
   }
+  document.getElementById('fclear').addEventListener('click', ()=>{
+    for(const g in active) active[g].clear();
+    for(const chip of document.querySelectorAll('.chip')) chip.classList.remove('on');
+    updateBadge(); apply();
+  });
+  syncRange();
 
   // lightbox
   const lb=document.getElementById('lb'), lbImg=lb.querySelector('img'),
@@ -304,12 +449,24 @@ TEMPLATE = r"""<!doctype html>
 
 if __name__ == "__main__":
     rows = attach_images(collect())
-    for r in rows:                       # weight for discontinued comes from the name
+    for r in rows:
+        # weight: shop oz (already set) -> shop+blog description -> name
         if r["weight_oz"] is None:
-            r["weight_oz"] = weight_oz(r["name"])
-        tag_row(r)
+            r["weight_oz"] = weight_oz(r.get("desc", "")) or weight_oz(r["name"])
+        tag_row(r, r.get("desc", ""))    # enrich fiber/dye/theme from descriptions
     out = "jeans_alert/materials.html"
     with open(out, "w", encoding="utf-8") as f:
         f.write(render(rows))
+
+    # machine-readable export (drops the internal `desc` blob)
+    fields = ("name", "status", "in_stock", "release_date", "weight_oz", "weight",
+              "fiber", "dye", "theme", "shop_url", "showcase_url", "blog_url",
+              "archived_url")
+    meta = [{k: r.get(k) for k in fields}
+            | {"season": season_label(r.get("release_date"))} for r in rows]
+    with open("jeans_alert/materials.json", "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=1)
+
     n_img = sum(1 for r in rows if r["images"])
-    print(f"Wrote {out}: {len(rows)} fabrics, {n_img} with photos")
+    n_dated = sum(1 for r in rows if r.get("release_date"))
+    print(f"Wrote {out}: {len(rows)} fabrics, {n_img} with photos, {n_dated} dated")
