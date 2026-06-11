@@ -187,17 +187,25 @@ def render(rows):
 TEMPLATE = r"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Naked &amp; Famous — Fabric Catalog</title>
+<title>Naked &amp; Famous — The Archives</title>
 <style>
   :root { --bg:#0f1115; --card:#191c23; --ink:#e8eaf0; --mut:#9aa3b2; --line:#272b34;
           --acc:#5b8cff; }
   * { box-sizing:border-box; }
   body { margin:0; background:var(--bg); color:var(--ink);
-         font:15px/1.45 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+         font:15px/1.45 "Times New Roman",Times,serif; }
+  button, input, select, textarea { font-family:inherit; }
   header { padding:24px 24px 14px; border-bottom:1px solid var(--line); position:sticky; top:0;
            background:#0f1115f5; backdrop-filter:blur(8px); z-index:20; }
   h1 { margin:0 0 6px; font-size:21px; }
   .sub { color:var(--mut); font-size:13px; }
+  /* shared brand lockup: N&F logo — "The Archives" (Times New Roman) */
+  .brand { display:flex; align-items:center; gap:13px; margin:0 0 6px; }
+  .brand img { height:44px; width:auto; display:block; }
+  .brand .dash { font-family:"Times New Roman",Times,serif; font-weight:400; font-size:30px;
+                 color:var(--mut); line-height:1; }
+  .brand .arch { font-family:"Times New Roman",Times,serif; font-weight:400; font-size:25px;
+                 letter-spacing:.5px; color:var(--ink); }
   .controls { margin-top:13px; display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
   input[type=search] { flex:1; min-width:220px; background:#10131a; border:1px solid var(--line);
            color:var(--ink); padding:9px 12px; border-radius:9px; font-size:14px; }
@@ -301,9 +309,69 @@ TEMPLATE = r"""<!doctype html>
   #lb .x { top:16px; right:18px; }
   #lb .prev { left:18px; top:50%; transform:translateY(-50%); }
   #lb .next { right:18px; top:50%; transform:translateY(-50%); }
+  /* --- intro: vibey scroll-snap timeline landing --- */
+  #intro { position:fixed; inset:0; z-index:100; background:var(--bg); }
+  #intro.out { animation:introFadeOut .55s forwards; pointer-events:none; }
+  @keyframes introFadeOut { to { opacity:0; visibility:hidden; } }
+  #intro-scroll { position:absolute; inset:0; overflow-y:auto; overflow-x:hidden;
+                  scroll-snap-type:y mandatory; scrollbar-width:none; }
+  #intro-scroll::-webkit-scrollbar { width:0; height:0; }
+  .intro-hd { position:absolute; top:0; left:0; right:0; z-index:3; padding:26px 40px 34px;
+              pointer-events:none; background:linear-gradient(#0f1115f2,#0f111500); }
+  .intro-sub { color:var(--mut); font-size:13px; margin-top:4px; }
+  #intro-hint { position:absolute; bottom:18px; left:0; right:0; text-align:center; z-index:3;
+                color:var(--mut); font-size:12px; pointer-events:none; letter-spacing:.3px;
+                animation:hintPulse 2.4s ease-in-out infinite; }
+  @keyframes hintPulse { 0%,100%{opacity:.45} 50%{opacity:.95} }
+  .s-panel { height:100%; scroll-snap-align:center; scroll-snap-stop:always;
+             display:flex; align-items:stretch; }
+  .s-axis { position:relative; flex:0 0 160px; }
+  .s-axis .line { position:absolute; right:22px; top:0; bottom:0; width:2px; background:var(--line); }
+  .s-axis .dot { position:absolute; right:18px; top:50%; width:11px; height:11px; margin-top:-6px;
+                 border-radius:50%; background:var(--acc); box-shadow:0 0 0 5px rgba(91,140,255,.16); }
+  .s-axis .lbl { position:absolute; right:42px; top:50%; transform:translateY(-50%); text-align:right; }
+  .s-axis .lbl b { display:block; font-size:19px; font-weight:700; line-height:1.1; }
+  .s-axis .lbl span { display:block; font-size:13px; color:var(--mut); letter-spacing:1px; }
+  .s-axis .lbl i { display:block; font-style:normal; font-size:10.5px; color:var(--mut); margin-top:4px; }
+  .s-grid { flex:1; display:grid; place-content:center; gap:14px; padding:20px 40px; }
+  .s-card { display:flex; flex-direction:column; gap:6px; min-width:0;
+            text-decoration:none; color:inherit; transition:transform .15s; }
+  a.s-card { cursor:pointer; }
+  a.s-card:hover { transform:translateY(-3px); }
+  a.s-card:hover .ph { box-shadow:0 0 0 2px var(--acc), 0 10px 26px #0009; }
+  a.s-card:hover .nm { color:var(--acc); }
+  .s-card .ph { aspect-ratio:1; border-radius:9px; overflow:hidden; background:#0c0e13;
+                display:flex; align-items:center; justify-content:center; transition:box-shadow .15s; }
+  .s-card img { width:100%; height:100%; object-fit:cover; display:block; }
+  .s-card .nm { font-size:11px; color:var(--ink); text-align:center;
+                white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .s-card .noimg-t { color:#4b5260; font-size:10px; text-transform:uppercase; letter-spacing:.5px; }
+  .s-cta { height:100%; scroll-snap-align:center; display:flex; flex-direction:column;
+           align-items:center; justify-content:center; gap:14px; text-align:center; padding:24px; }
+  .cta-kicker { color:var(--mut); font-size:12px; letter-spacing:2px; text-transform:uppercase; }
+  .s-cta h2 { margin:0; font-size:32px; font-weight:700; letter-spacing:-.5px; }
+  .s-cta p { margin:0; color:var(--mut); font-size:14px; }
+  #go-catalog { margin-top:8px; background:var(--acc); color:#fff; border:none; border-radius:999px;
+                padding:15px 34px; font-size:16px; font-weight:600; cursor:pointer;
+                box-shadow:0 10px 40px rgba(91,140,255,.35); transition:transform .15s, box-shadow .15s; }
+  #go-catalog:hover { transform:translateY(-2px); box-shadow:0 14px 50px rgba(91,140,255,.5); }
 </style></head><body>
+<div id="intro">
+  <div id="intro-scroll"></div>
+  <div class="intro-hd">
+    <div class="brand">
+      <img src="https://nakedandfamousdenim.com/cdn/shop/files/Naked_Famous_Denim.png?v=1778706745&amp;width=480" alt="Naked &amp; Famous">
+      <span class="dash">—</span><span class="arch">The Archives</span>
+    </div>
+    <div class="intro-sub">Every season released, oldest to newest</div>
+  </div>
+  <div id="intro-hint">scroll to wander · click a fabric to open it · click empty space to skip</div>
+</div>
 <header>
-  <h1>Naked &amp; Famous — Complete Fabric Catalog</h1>
+  <div class="brand">
+    <img src="https://nakedandfamousdenim.com/cdn/shop/files/Naked_Famous_Denim.png?v=1778706745&amp;width=480" alt="Naked &amp; Famous">
+    <span class="dash">—</span><span class="arch">The Archives</span>
+  </div>
   <div class="sub">%%SUB%%</div>
   <div class="controls">
     <input id="q" type="search" placeholder="Search fabrics… (e.g. core, godzilla, kasuri)">
@@ -442,6 +510,133 @@ TEMPLATE = r"""<!doctype html>
     else if(e.key==='ArrowLeft') step(-1);
     else if(e.key==='ArrowRight') step(1);
   });
+  // --- intro: vibey scroll-snap timeline landing ---
+  (function(){
+    const intro=document.getElementById('intro');
+    const scroller=document.getElementById('intro-scroll');
+    const SORD={winter:0,spring:1,summer:2,fall:3};
+    const cap=s=>s.charAt(0).toUpperCase()+s.slice(1);
+
+    // group dated cards by season slug ("spring-2019")
+    const groups=new Map();
+    for(const c of document.querySelectorAll('#grid .card')){
+      const s=c.dataset.season;
+      if(!s||!c.dataset.year) continue;
+      (groups.get(s)||groups.set(s,[]).get(s)).push(c);
+    }
+    const seasons=[...groups.keys()].sort((a,b)=>{
+      const ap=a.split('-'), bp=b.split('-');
+      if(ap[1]!==bp[1]) return ap[1]<bp[1]?-1:1;     // year
+      return (SORD[ap[0]]??4)-(SORD[bp[0]]??4);       // season within year
+    });
+    if(!seasons.length){ intro.remove(); return; }
+
+    let done=false;
+    function dismiss(){
+      if(done) return; done=true; stopAuto();
+      intro.classList.add('out');
+      setTimeout(()=>intro.remove(), 600);
+    }
+
+    requestAnimationFrame(()=>{
+      const viewH=scroller.clientHeight;
+      const AXIS=160, GAP=14, availW=scroller.clientWidth-AXIS-80, availH=viewH-56;
+
+      for(const key of seasons){
+        const cards=groups.get(key); const N=cards.length; const kp=key.split('-');
+
+        // pick the column count that makes the cards as large as possible while fitting
+        let best={cols:1,size:0};
+        for(let cols=1; cols<=N; cols++){
+          const rows=Math.ceil(N/cols);
+          const w=(availW-GAP*(cols-1))/cols;
+          const h=(availH-GAP*(rows-1))/rows/1.2;   // reserve ~20% for the name
+          const size=Math.min(w,h);
+          if(size>best.size) best={cols,size};
+        }
+        const size=Math.max(56, Math.min(best.size, 190));
+
+        const panel=document.createElement('div'); panel.className='s-panel';
+        panel.innerHTML=
+          '<div class="s-axis"><div class="line"></div><div class="dot"></div>'+
+          '<div class="lbl"><b>'+cap(kp[0])+'</b><span>'+kp[1]+'</span>'+
+          '<i>'+N+' fabric'+(N>1?'s':'')+'</i></div></div>';
+
+        const gridEl=document.createElement('div'); gridEl.className='s-grid';
+        gridEl.style.gridTemplateColumns='repeat('+best.cols+','+size+'px)';
+        for(const c of cards){
+          const img=(c.dataset.imgs||'').split('|')[0];
+          // link priority: showcase -> blog -> store -> archived (pulled from the card's own links)
+          const links=[...c.querySelectorAll('.links a')];
+          const pick=lbl=>{ const a=links.find(a=>a.textContent.trim().startsWith(lbl));
+                            return a?a.getAttribute('href'):''; };
+          const href=pick('Showcase')||pick('Blog')||pick('Shop')||pick('Archived')||'';
+          const card=document.createElement(href?'a':'div'); card.className='s-card';
+          if(href){ card.href=href; card.target='_blank'; card.rel='noopener'; }
+          card.innerHTML='<div class="ph">'+
+            (img?'<img loading="lazy" src="'+img+'" alt="">':'<span class="noimg-t">no photo</span>')+
+            '</div><div class="nm"></div>';
+          const nm=card.querySelector('.nm');
+          nm.textContent=c.dataset.title; nm.title=c.dataset.title;
+          gridEl.appendChild(card);
+        }
+        panel.appendChild(gridEl);
+        scroller.appendChild(panel);
+      }
+
+      // closing call-to-action panel
+      const cta=document.createElement('div'); cta.className='s-cta';
+      cta.innerHTML='<div class="cta-kicker">end of the line</div>'+
+        '<h2>'+seasons.length+' seasons of denim.</h2>'+
+        '<p>The full catalogue is searchable and filterable inside.</p>'+
+        '<button id="go-catalog">Explore catalogue →</button>';
+      scroller.appendChild(cta);
+      document.getElementById('go-catalog')
+        .addEventListener('click', e=>{ e.stopPropagation(); dismiss(); });
+
+      startAuto();
+    });
+
+    // --- autoplay: gentle downward drift for the vibe ---
+    let auto=0, lastT=0;
+    const SPEED=300;  // px / second
+    function frame(t){
+      const dt=lastT?(t-lastT)/1000:0; lastT=t;
+      scroller.scrollTop+=SPEED*dt;
+      if(scroller.scrollTop+scroller.clientHeight>=scroller.scrollHeight-2){ stopAuto(); return; }
+      auto=requestAnimationFrame(frame);
+    }
+    function startAuto(){ scroller.style.scrollSnapType='none'; lastT=0; auto=requestAnimationFrame(frame); }
+    function stopAuto(){ if(auto){ cancelAnimationFrame(auto); auto=0; }
+      scroller.style.scrollSnapType='y mandatory'; }
+
+    // --- click anywhere: rush to the bottom CTA ---
+    let fast=0;
+    function fastToBottom(){
+      stopAuto(); scroller.style.scrollSnapType='none';
+      const start=scroller.scrollTop, target=scroller.scrollHeight-scroller.clientHeight;
+      if(target-start<4) return;
+      let t0=0; const dur=650;
+      if(fast) cancelAnimationFrame(fast);
+      function f(now){
+        if(!t0) t0=now;
+        const p=Math.min(1,(now-t0)/dur), e=1-Math.pow(1-p,3);
+        scroller.scrollTop=start+(target-start)*e;
+        if(p<1) fast=requestAnimationFrame(f);
+        else { fast=0; scroller.style.scrollSnapType='y mandatory'; }
+      }
+      fast=requestAnimationFrame(f);
+    }
+
+    // user grabs the wheel/keys -> stop autoplay, hand over to snappy native scroll
+    ['wheel','touchstart','keydown'].forEach(ev=>
+      scroller.addEventListener(ev, ()=>{ if(auto) stopAuto(); }, {passive:true}));
+    scroller.addEventListener('click', e=>{
+      if(e.target.closest('a')||e.target.closest('#go-catalog')) return;  // let fabric links / CTA work
+      fastToBottom();
+    });
+  })();
+
   apply();
 </script>
 </body></html>"""
