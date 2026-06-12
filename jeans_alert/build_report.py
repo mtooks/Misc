@@ -8,6 +8,7 @@ Output: jeans_alert/materials.html
 """
 import html
 import json
+import os
 import re
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -16,9 +17,10 @@ import requests
 
 from build_catalog import collect, weight_oz, SQ
 from tags import tag_row, slug
-from blog_match import season_label, SEASON, ORDER
+from blog_match import season_label
 
-IMG_CACHE = "jeans_alert/squarespace_images.json"
+_HERE = os.path.dirname(os.path.abspath(__file__))
+IMG_CACHE = os.path.join(_HERE, "squarespace_images.json")
 WORKERS = 8
 # Weight is a continuous slider (on the oz value); these three are chip facets
 # tucked inside the "Filter" popover.
@@ -69,7 +71,8 @@ def attach_images(rows):
 
 
 def chips_html(rows):
-    """Fiber / dye / theme chip groups (shown inside the Filter popover)."""
+    """One column of chips per category (fiber / dye / theme), shown side by side
+    inside the Filter dropdown."""
     counts = {g: Counter() for g, _ in FILTER_GROUPS}
     for r in rows:
         for g, _ in FILTER_GROUPS:
@@ -81,7 +84,8 @@ def chips_html(rows):
         chips = "".join(
             f'<button class="chip" data-group="{g}" data-val="{slug(v)}">'
             f'{html.escape(v)} <i>{counts[g][v]}</i></button>' for v in vals)
-        blocks.append(f'<div class="fgroup"><span class="flabel">{label}</span>{chips}</div>')
+        blocks.append(f'<div class="fcol"><span class="flabel">{label}</span>'
+                      f'<div class="chips">{chips}</div></div>')
     return "\n".join(blocks)
 
 
@@ -114,8 +118,8 @@ def cards_html(rows):
         thumb = (f'<img loading="lazy" src="{html.escape(imgs[0])}" alt="{name}" '
                  f'onerror="this.closest(\'.card\').classList.add(\'noimg\')">' if imgs else "")
         meta = []
-        if r["weight"] != "Unknown":
-            meta.append(html.escape(r["weight"]))
+        if r["weight_oz"]:
+            meta.append(f'{r["weight_oz"]:g} oz')
         meta += [html.escape(x) for x in r["fiber"] if x != "Cotton"]
         meta += [html.escape(x) for x in r["dye"]] + [html.escape(x) for x in r["theme"]]
         chips = "".join(f'<span class="tag">{m}</span>' for m in meta)
@@ -141,44 +145,11 @@ def cards_html(rows):
     return "\n".join(out)
 
 
-def heatmap_html(rows):
-    """Compact year×season grid of release counts (seasons as rows, years as
-    columns) for the header. Cell shade scales with the count."""
-    grid = Counter()
-    for r in rows:
-        d = r.get("release_date")
-        if d:
-            grid[(d[:4], SEASON[int(d[5:7])])] += 1
-    if not grid:
-        return ""
-    years = sorted({y for y, _ in grid})
-    mx = max(grid.values())
-    out = [f'<div class="heatmap" style="grid-template-columns:auto repeat({len(years)},1fr)">',
-           '<div class="hm-cell hm-corner"></div>']
-    out += [f'<div class="hm-cell hm-head">’{y[2:]}</div>' for y in years]
-    for s in ORDER:
-        out.append(f'<div class="hm-cell hm-season">{s}</div>')
-        for y in years:
-            n = grid[(y, s)]
-            st = f'background:rgba(91,140,255,{0.12 + 0.88 * n / mx:.2f})' if n else ''
-            out.append(f'<div class="hm-cell" style="{st}" title="{s} {y}: {n}">{n or ""}</div>')
-    out.append('</div>')
-    return "".join(out)
-
-
 def render(rows):
-    n_avail = sum(1 for r in rows if r["in_stock"])
-    n_unavail = len(rows) - n_avail
-    n_img = sum(1 for r in rows if r["images"])
-    n_dated = sum(1 for r in rows if r.get("release_date"))
-    sub = (f'{len(rows)} fabrics · {n_avail} available · {n_unavail} unavailable · '
-           f'{n_img} with photos · {n_dated} dated. Click a photo to zoom. '
-           f'Sources: live shop, Squarespace fabric pages, blog announcements, Wayback Machine.')
     oz_lo, oz_hi = oz_bounds(rows)
     tpl = TEMPLATE
-    for k, v in {"%%SUB%%": sub, "%%CHIPS%%": chips_html(rows),
+    for k, v in {"%%CHIPS%%": chips_html(rows),
                  "%%CARDS%%": cards_html(rows), "%%TOTAL%%": str(len(rows)),
-                 "%%HEATMAP%%": heatmap_html(rows),
                  "%%OZMIN%%": str(oz_lo), "%%OZMAX%%": str(oz_hi)}.items():
         tpl = tpl.replace(k, v)
     return tpl
@@ -198,7 +169,6 @@ TEMPLATE = r"""<!doctype html>
   header { padding:24px 24px 14px; border-bottom:1px solid var(--line); position:sticky; top:0;
            background:#0f1115f5; backdrop-filter:blur(8px); z-index:20; }
   h1 { margin:0 0 6px; font-size:21px; }
-  .sub { color:var(--mut); font-size:13px; }
   /* shared brand lockup: N&F logo — "The Archives" (Times New Roman) */
   .brand { display:flex; align-items:center; gap:13px; margin:0 0 6px; }
   .brand img { height:44px; width:auto; display:block; }
@@ -215,15 +185,8 @@ TEMPLATE = r"""<!doctype html>
   .seg button:first-child { border-radius:9px 0 0 9px; }
   .seg button:last-child { border-radius:0 9px 9px 0; }
   .seg button.on { color:#fff; background:var(--acc); border-color:var(--acc); }
-  .facets { padding:12px 24px; border-bottom:1px solid var(--line); position:sticky;
-            top:108px; background:#0f1115f2; backdrop-filter:blur(8px); z-index:15;
-            display:flex; align-items:center; gap:20px; flex-wrap:wrap; }
-  .fgroup { display:flex; align-items:baseline; gap:7px; flex-wrap:wrap; margin:7px 0; }
-  .flabel { color:var(--mut); font-size:11px; text-transform:uppercase; letter-spacing:.6px;
-            min-width:84px; }
-  /* weight range slider (dual handle, on oz) */
-  .wslider { align-items:center; margin:0; }
-  .wslider .flabel { min-width:auto; }
+  .flabel { color:var(--mut); font-size:11px; text-transform:uppercase; letter-spacing:.6px; }
+  /* weight range slider (dual handle, on oz) — lives in the Filter dropdown */
   .range { position:relative; width:230px; height:28px; }
   .range .track { position:absolute; top:12px; left:0; right:0; height:4px;
                   background:var(--line); border-radius:2px; }
@@ -249,10 +212,14 @@ TEMPLATE = r"""<!doctype html>
             font-weight:700; min-width:18px; height:18px; padding:0 5px; display:inline-flex;
             align-items:center; justify-content:center; }
   .fbtn:not(.on) .fbadge { background:var(--acc); color:#fff; }
-  .fpop { position:absolute; top:calc(100% - 1px); left:24px; right:24px; max-width:760px;
+  .fpop { position:absolute; top:calc(100% - 1px); left:24px; right:24px; max-width:940px;
           background:#13161d; border:1px solid var(--line); border-radius:12px;
-          padding:6px 16px 12px; box-shadow:0 16px 50px #000a; z-index:30; }
-  .fpop-foot { margin-top:8px; padding-top:10px; border-top:1px solid var(--line);
+          padding:16px 18px 12px; box-shadow:0 16px 50px #000a; z-index:30; }
+  .fpop-cols { display:flex; gap:30px; flex-wrap:wrap; }
+  .fcol { display:flex; flex-direction:column; gap:9px; min-width:150px; }
+  .fcol .chips { display:flex; flex-direction:column; align-items:flex-start; gap:6px; }
+  .fcol-weight { min-width:250px; gap:12px; }
+  .fpop-foot { margin-top:14px; padding-top:10px; border-top:1px solid var(--line);
                display:flex; justify-content:flex-end; }
   .fclear { background:none; border:1px solid var(--line); color:var(--mut); border-radius:8px;
             padding:6px 13px; font-size:12.5px; cursor:pointer; }
@@ -288,13 +255,6 @@ TEMPLATE = r"""<!doctype html>
   .links { display:flex; flex-wrap:wrap; gap:6px 12px; margin-top:2px; }
   .links a { color:var(--acc); text-decoration:none; font-size:12.5px; }
   .links a:hover { text-decoration:underline; }
-  /* release timeline heatmap (year × season) */
-  .hmband { padding:10px 24px; border-bottom:1px solid var(--line); overflow-x:auto; }
-  .heatmap { display:grid; gap:2px; width:max-content; font-size:10px; }
-  .hm-cell { min-width:22px; height:18px; display:flex; align-items:center;
-             justify-content:center; border-radius:3px; color:#dce3f0; background:#12151c; }
-  .hm-head, .hm-season, .hm-corner { background:none; color:var(--mut); }
-  .hm-season { justify-content:flex-end; padding-right:8px; }
   .hidden { display:none !important; }
   /* lightbox */
   #lb { position:fixed; inset:0; background:#000d; display:none; z-index:50;
@@ -325,14 +285,16 @@ TEMPLATE = r"""<!doctype html>
   @keyframes hintPulse { 0%,100%{opacity:.45} 50%{opacity:.95} }
   .s-panel { height:100%; scroll-snap-align:center; scroll-snap-stop:always;
              display:flex; align-items:stretch; }
-  .s-axis { position:relative; flex:0 0 160px; }
+  /* axis + labels grow on large screens (clamp min = small-screen size) */
+  .s-axis { position:relative; flex:0 0 clamp(160px, 16vw, 240px); }
   .s-axis .line { position:absolute; right:22px; top:0; bottom:0; width:2px; background:var(--line); }
   .s-axis .dot { position:absolute; right:18px; top:50%; width:11px; height:11px; margin-top:-6px;
                  border-radius:50%; background:var(--acc); box-shadow:0 0 0 5px rgba(91,140,255,.16); }
   .s-axis .lbl { position:absolute; right:42px; top:50%; transform:translateY(-50%); text-align:right; }
-  .s-axis .lbl b { display:block; font-size:19px; font-weight:700; line-height:1.1; }
-  .s-axis .lbl span { display:block; font-size:13px; color:var(--mut); letter-spacing:1px; }
-  .s-axis .lbl i { display:block; font-style:normal; font-size:10.5px; color:var(--mut); margin-top:4px; }
+  .s-axis .lbl b { display:block; font-size:clamp(19px, 2.4vw, 34px); font-weight:700; line-height:1.1; }
+  .s-axis .lbl span { display:block; font-size:clamp(13px, 1.4vw, 20px); color:var(--mut); letter-spacing:1px; }
+  .s-axis .lbl i { display:block; font-style:normal; font-size:clamp(10.5px, 1vw, 15px);
+                   color:var(--mut); margin-top:4px; }
   .s-grid { flex:1; display:grid; place-content:center; gap:14px; padding:20px 40px; }
   .s-card { display:flex; flex-direction:column; gap:6px; min-width:0;
             text-decoration:none; color:inherit; transition:transform .15s; }
@@ -363,7 +325,6 @@ TEMPLATE = r"""<!doctype html>
       <img src="https://nakedandfamousdenim.com/cdn/shop/files/Naked_Famous_Denim.png?v=1778706745&amp;width=480" alt="Naked &amp; Famous">
       <span class="dash">—</span><span class="arch">The Archives</span>
     </div>
-    <div class="intro-sub">Every season released, oldest to newest</div>
   </div>
   <div id="intro-hint">scroll to wander · click a fabric to open it · click empty space to skip</div>
 </div>
@@ -372,7 +333,6 @@ TEMPLATE = r"""<!doctype html>
     <img src="https://nakedandfamousdenim.com/cdn/shop/files/Naked_Famous_Denim.png?v=1778706745&amp;width=480" alt="Naked &amp; Famous">
     <span class="dash">—</span><span class="arch">The Archives</span>
   </div>
-  <div class="sub">%%SUB%%</div>
   <div class="controls">
     <input id="q" type="search" placeholder="Search fabrics… (e.g. core, godzilla, kasuri)">
     <div class="seg" id="seg">
@@ -380,26 +340,25 @@ TEMPLATE = r"""<!doctype html>
       <button data-f="active">Available</button>
       <button data-f="disc">Unavailable</button>
     </div>
+    <button class="fbtn" id="fbtn">Filter <span class="fbadge hidden" id="fbadge">0</span></button>
     <span class="count" id="count"></span>
-  </div>
-</header>
-<div class="hmband">%%HEATMAP%%</div>
-<div class="facets">
-  <div class="fgroup wslider">
-    <span class="flabel">Weight</span>
-    <div class="range" id="range">
-      <div class="track"><div class="fill" id="fill"></div></div>
-      <input type="range" id="wmin" min="%%OZMIN%%" max="%%OZMAX%%" step="0.5" value="%%OZMIN%%">
-      <input type="range" id="wmax" min="%%OZMIN%%" max="%%OZMAX%%" step="0.5" value="%%OZMAX%%">
-    </div>
-    <span class="rangeval" id="wval"></span>
-  </div>
-  <button class="fbtn" id="fbtn">Filter <span class="fbadge hidden" id="fbadge">0</span></button>
   <div class="fpop hidden" id="fpop">
-    %%CHIPS%%
+    <div class="fpop-cols">
+      <div class="fcol fcol-weight">
+        <span class="flabel">Weight</span>
+        <div class="range" id="range">
+          <div class="track"><div class="fill" id="fill"></div></div>
+          <input type="range" id="wmin" min="%%OZMIN%%" max="%%OZMAX%%" step="0.5" value="%%OZMIN%%">
+          <input type="range" id="wmax" min="%%OZMIN%%" max="%%OZMAX%%" step="0.5" value="%%OZMAX%%">
+        </div>
+        <span class="rangeval" id="wval"></span>
+      </div>
+      %%CHIPS%%
+    </div>
     <div class="fpop-foot"><button class="fclear" id="fclear">Clear all</button></div>
   </div>
-</div>
+  </div>
+</header>
 <main class="grid" id="grid">
 %%CARDS%%
 </main>
@@ -539,8 +498,12 @@ TEMPLATE = r"""<!doctype html>
     }
 
     requestAnimationFrame(()=>{
-      const viewH=scroller.clientHeight;
-      const AXIS=160, GAP=14, availW=scroller.clientWidth-AXIS-80, availH=viewH-56;
+      const viewH=scroller.clientHeight, vw=scroller.clientWidth;
+      // axis reserve mirrors the CSS clamp(160px, 16vw, 240px)
+      const AXIS=Math.min(240, Math.max(160, vw*0.16)), GAP=14,
+            availW=vw-AXIS-80, availH=viewH-56;
+      // cards keep the ~190px cap up to 1100px wide, then grow up to 340px on big screens
+      const CAP=Math.min(340, Math.max(190, (vw-1100)*0.25+190));
 
       for(const key of seasons){
         const cards=groups.get(key); const N=cards.length; const kp=key.split('-');
@@ -554,7 +517,7 @@ TEMPLATE = r"""<!doctype html>
           const size=Math.min(w,h);
           if(size>best.size) best={cols,size};
         }
-        const size=Math.max(56, Math.min(best.size, 190));
+        const size=Math.max(56, Math.min(best.size, CAP));
 
         const panel=document.createElement('div'); panel.className='s-panel';
         panel.innerHTML=
@@ -578,6 +541,7 @@ TEMPLATE = r"""<!doctype html>
             '</div><div class="nm"></div>';
           const nm=card.querySelector('.nm');
           nm.textContent=c.dataset.title; nm.title=c.dataset.title;
+          nm.style.fontSize=Math.max(11, Math.round(size*0.085))+'px';  // scale name with card
           gridEl.appendChild(card);
         }
         panel.appendChild(gridEl);
@@ -649,7 +613,7 @@ if __name__ == "__main__":
         if r["weight_oz"] is None:
             r["weight_oz"] = weight_oz(r.get("desc", "")) or weight_oz(r["name"])
         tag_row(r, r.get("desc", ""))    # enrich fiber/dye/theme from descriptions
-    out = "jeans_alert/materials.html"
+    out = os.path.join(_HERE, "materials.html")
     with open(out, "w", encoding="utf-8") as f:
         f.write(render(rows))
 
@@ -659,7 +623,7 @@ if __name__ == "__main__":
               "archived_url")
     meta = [{k: r.get(k) for k in fields}
             | {"season": season_label(r.get("release_date"))} for r in rows]
-    with open("jeans_alert/materials.json", "w", encoding="utf-8") as f:
+    with open(os.path.join(_HERE, "materials.json"), "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=1)
 
     n_img = sum(1 for r in rows if r["images"])

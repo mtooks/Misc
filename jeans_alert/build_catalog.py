@@ -19,7 +19,8 @@ import requests
 from list_materials import crawl, material_of, norm, example_link, PRODUCT_BASE
 
 SQ = "https://nakedandfamousdenim.squarespace.com"
-WAYBACK_CACHE = "jeans_alert/discontinued_raw.json"
+_HERE = os.path.dirname(os.path.abspath(__file__))
+WAYBACK_CACHE = os.path.join(_HERE, "discontinued_raw.json")
 
 # --- Squarespace slug filtering ----------------------------------------------
 DROP_SUFFIX = ("-lifestyle", "-flat", "-macro", "-macros", "-faded", "-teaser",
@@ -261,7 +262,7 @@ def build_markdown(rows):
 
 if __name__ == "__main__":
     rows = collect()
-    with open("jeans_alert/materials.md", "w", encoding="utf-8") as f:
+    with open(os.path.join(_HERE, "materials.md"), "w", encoding="utf-8") as f:
         f.write(build_markdown(rows))
     n_active = sum(1 for r in rows if r["status"] == "active")
     print(f"Wrote jeans_alert/materials.md: {len(rows)} fabrics "

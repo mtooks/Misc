@@ -10,15 +10,17 @@ Blog dates fix the `created_at`-reset problem (bulk re-uploads) AND give dates t
 discontinued fabrics that have no live product at all.
 """
 import json
+import os
 import re
 from collections import Counter, defaultdict
 
 from build_catalog import collect, normkey
 from list_materials import crawl, material_of
 
-BLOG_CACHE = "jeans_alert/blog_cache.json"
-OVERRIDES = "jeans_alert/blog_overrides.json"     # {fabric_normkey: blog_handle}
-EXTRA = "jeans_alert/blog_extra_fabrics.json"     # [{handle, name}] blog-only fabrics
+_HERE = os.path.dirname(os.path.abspath(__file__))
+BLOG_CACHE = os.path.join(_HERE, "blog_cache.json")
+OVERRIDES = os.path.join(_HERE, "blog_overrides.json")     # {fabric_normkey: blog_handle}
+EXTRA = os.path.join(_HERE, "blog_extra_fabrics.json")     # [{handle, name}] blog-only fabrics
 BLOG = "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim"
 SEASON = {12: "Winter", 1: "Winter", 2: "Winter", 3: "Spring", 4: "Spring",
           5: "Spring", 6: "Summer", 7: "Summer", 8: "Summer", 9: "Fall",

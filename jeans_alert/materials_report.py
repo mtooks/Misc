@@ -4,11 +4,13 @@ Run jeans_alert/discontinued.py first to populate discontinued_raw.json, then
 this script merges everything into jeans_alert/materials.md.
 """
 import json
+import os
 from collections import defaultdict
 
 from list_materials import crawl, material_of, norm, example_link, PRODUCT_BASE
 
-CACHE = "jeans_alert/discontinued_raw.json"
+_HERE = os.path.dirname(os.path.abspath(__file__))
+CACHE = os.path.join(_HERE, "discontinued_raw.json")
 
 
 def wayback_url(rec):
@@ -75,7 +77,7 @@ def build():
 
 if __name__ == "__main__":
     md, total, n_active, n_past = build()
-    with open("jeans_alert/materials.md", "w", encoding="utf-8") as f:
+    with open(os.path.join(_HERE, "materials.md"), "w", encoding="utf-8") as f:
         f.write(md)
     print(f"Wrote jeans_alert/materials.md: {total} materials "
           f"({n_active} active, {n_past} discontinued-only)")

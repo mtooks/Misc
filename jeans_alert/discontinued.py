@@ -8,6 +8,7 @@ the real product title and parse its material the same way as the live list.
 """
 import html
 import json
+import os
 import re
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -25,7 +26,8 @@ JEANS_FITS = {
     "groovy guy", "stacked guy", "high skinny", "true girl", "super girl",
     "maudie", "bestie", "max",
 }
-CACHE = "jeans_alert/discontinued_raw.json"
+_HERE = os.path.dirname(os.path.abspath(__file__))
+CACHE = os.path.join(_HERE, "discontinued_raw.json")
 WORKERS = 4
 
 

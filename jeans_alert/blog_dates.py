@@ -11,15 +11,17 @@ Run modes:
                                               # posts (to populate hero images)
 """
 import json
+import os
 import re
 import sys
 import time
 
 import requests
 
+_HERE = os.path.dirname(os.path.abspath(__file__))
 BLOG = "https://nakedandfamousdenim.com/blogs/naked-and-famous-denim"
-CACHE = "jeans_alert/blog_cache.json"
-EXTRA = "jeans_alert/blog_extra_fabrics.json"
+CACHE = os.path.join(_HERE, "blog_cache.json")
+EXTRA = os.path.join(_HERE, "blog_extra_fabrics.json")
 PAGES = 20          # listing pages to sweep (stops early when empty)
 REQ_DELAY = 1.2     # polite gap between requests (sequential)
 # A real browser UA + modest rate keeps the storefront from serving the

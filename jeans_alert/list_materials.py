@@ -11,12 +11,14 @@ e.g. "Women's - High Skinny - Black Cobra Stretch Selvedge"
      "Easy Guy - Solid Black Selvedge - 36\" Long Inseam"
 """
 import html
+import os
 import re
 import time
 from collections import defaultdict
 
 import requests
 
+_HERE = os.path.dirname(os.path.abspath(__file__))
 HOST = "nakedandfamousdenim.com"
 CATALOG_URL = f"https://{HOST}/products.json"
 PRODUCT_BASE = f"https://{HOST}/products"
@@ -106,6 +108,6 @@ def build():
 
 if __name__ == "__main__":
     md, n_mat, n_jeans = build()
-    with open("jeans_alert/materials.md", "w", encoding="utf-8") as f:
+    with open(os.path.join(_HERE, "materials.md"), "w", encoding="utf-8") as f:
         f.write(md)
     print(f"Wrote jeans_alert/materials.md: {n_mat} materials, {n_jeans} jeans")
