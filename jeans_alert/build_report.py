@@ -603,6 +603,9 @@ TEMPLATE = r"""<!doctype html>
 
   apply();
 </script>
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9f40017edaba4138a1639b797d880aa6"}'></script>
+<!-- End Cloudflare Web Analytics -->
 </body></html>"""
 
 
